@@ -67,40 +67,25 @@ def test_dict_conversion_simple():
                                 "conceptCode": "TEST",
                                 "domainId": "Condition",
                                 "vocabularyId": "SNOMED",
-                                "conceptClassId": "Clinical Finding"
+                                "conceptClassId": "Clinical Finding",
                             },
                             "includeDescendants": True,
                             "isExcluded": False,
-                            "includeMapped": False
+                            "includeMapped": False,
                         }
                     ]
-                }
+                },
             }
         ],
         "primaryCriteria": {
-            "criteriaList": [
-                {
-                    "conditionOccurrence": {
-                        "codesetId": 1
-                    }
-                }
-            ],
-            "observationWindow": {
-                "priorDays": 0,
-                "postDays": 0
-            },
-            "primaryCriteriaLimit": {
-                "type": "First"
-            }
+            "criteriaList": [{"conditionOccurrence": {"codesetId": 1}}],
+            "observationWindow": {"priorDays": 0, "postDays": 0},
+            "primaryCriteriaLimit": {"type": "First"},
         },
-        "qualifiedLimit": {
-            "type": "First"
-        },
-        "expressionLimit": {
-            "type": "First"
-        },
+        "qualifiedLimit": {"type": "First"},
+        "expressionLimit": {"type": "First"},
         "inclusionRules": [],
-        "censoringCriteria": []
+        "censoringCriteria": [],
     }
 
     # Convert to Circe format
@@ -140,38 +125,23 @@ def test_webapi_validation_functions():
                                 "conceptCode": "TEST",
                                 "domainId": "Condition",
                                 "vocabularyId": "SNOMED",
-                                "conceptClassId": "Clinical Finding"
+                                "conceptClassId": "Clinical Finding",
                             },
-                            "includeDescendants": True
+                            "includeDescendants": True,
                         }
                     ]
-                }
+                },
             }
         ],
         "primaryCriteria": {
-            "criteriaList": [
-                {
-                    "conditionOccurrence": {
-                        "codesetId": 1
-                    }
-                }
-            ],
-            "observationWindow": {
-                "priorDays": 0,
-                "postDays": 0
-            },
-            "primaryCriteriaLimit": {
-                "type": "First"
-            }
+            "criteriaList": [{"conditionOccurrence": {"codesetId": 1}}],
+            "observationWindow": {"priorDays": 0, "postDays": 0},
+            "primaryCriteriaLimit": {"type": "First"},
         },
-        "qualifiedLimit": {
-            "type": "First"
-        },
-        "expressionLimit": {
-            "type": "First"
-        },
+        "qualifiedLimit": {"type": "First"},
+        "expressionLimit": {"type": "First"},
         "inclusionRules": [],
-        "censoringCriteria": []
+        "censoringCriteria": [],
     }
 
     # Test schema-only validation
@@ -232,19 +202,14 @@ def test_unknown_fields_preserved():
         "primaryCriteria": {
             "criteriaList": [],
             "observationWindow": {"priorDays": 0, "postDays": 0},
-            "primaryCriteriaLimit": {"type": "First"}
+            "primaryCriteriaLimit": {"type": "First"},
         },
         "qualifiedLimit": {"type": "First"},
         "expressionLimit": {"type": "First"},
         "inclusionRules": [],
         "censoringCriteria": [],
         "unknownField": "should be preserved",
-        "nestedUnknown": {
-            "someField": "also preserved",
-            "deepNested": {
-                "evenDeeper": "still here"
-            }
-        }
+        "nestedUnknown": {"someField": "also preserved", "deepNested": {"evenDeeper": "still here"}},
     }
 
     # Convert to Circe format

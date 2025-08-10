@@ -105,10 +105,7 @@ def test_all_circe_data_validates_successfully():
         if len(failures) > 5:
             failure_details += f"\n  ... and {len(failures) - 5} more failures"
 
-        pytest.fail(
-            f"{len(failures)} out of {total_cohort_expressions} cohort expressions failed validation:\n"
-            f"{failure_details}"
-        )
+        pytest.fail(f"{len(failures)} out of {total_cohort_expressions} cohort expressions failed validation:\n" f"{failure_details}")
 
     # Ensure we actually tested some cohort expressions
     assert total_cohort_expressions > 0, "No cohort expressions found to validate"
