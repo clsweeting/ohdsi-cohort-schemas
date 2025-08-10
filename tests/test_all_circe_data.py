@@ -2,14 +2,12 @@
 """
 Comprehensive validation against ALL Circe test data.
 
-This script validates our Pydantic models against the complete Circe test suite
-of 223 JSON files to ensure maximum compatibility with OHDSI standards.
-
-Run with: poetry run python tests/test_all_circe_data.py
+This module validates our Pydantic models against the complete Circe test suite
+to ensure maximum compatibility with OHDSI standards.
 """
 
 import json
-import sys
+import pytest
 from pathlib import Path
 
 from ohdsi_cohort_schemas.models.cohort import CohortExpression
@@ -53,16 +51,81 @@ def validate_file(json_path: Path) -> tuple[bool, str]:
         return False, f"UNEXPECTED_ERROR: {e}"
 
 
-def main():
-    """Validate all Circe test files."""
+def test_all_circe_data_validates_successfully():
+    """Test that all Circe test data validates successfully with our schema."""
+    
+    # Find all JSON files in test resources
+    test_resources = Path(__file__).parent / "resources"
+    json_files = list(test_resources.rglob("*.json"))
 
+    assert json_files, "No JSON files found in tests/resources"
+
+    # Track results by category
+    results: dict[str, list[tuple[Path, bool, str]]] = {}
+    total_cohort_expressions = 0
+    successful_validations = 0
+
+    # Validate each file
+    for json_file in sorted(json_files):
+        # Get category from path (e.g., "cohortgeneration", "conceptset", "checkers")
+        category = json_file.parts[-2] if len(json_file.parts) > 1 else "unknown"
+
+        success, message = validate_file(json_file)
+
+        if category not in results:
+            results[category] = []
+        results[category].append((json_file, success, message))
+
+        # Count cohort expressions and successes
+        if not message.startswith("SKIPPED"):
+            total_cohort_expressions += 1
+            if success:
+                successful_validations += 1
+
+    # Collect all failures for detailed reporting
+    failures = []
+    for category, category_results in results.items():
+        for file_path, success, message in category_results:
+            if not success and not message.startswith("SKIPPED"):
+                failures.append((file_path.name, message))
+
+    # Print summary for debugging
+    print(f"\nCirce validation summary:")
+    print(f"  Total JSON files: {len(json_files)}")
+    print(f"  Cohort expressions: {total_cohort_expressions}")
+    print(f"  Successfully validated: {successful_validations}")
+    
+    if total_cohort_expressions > 0:
+        success_rate = (successful_validations / total_cohort_expressions) * 100
+        print(f"  Success rate: {success_rate:.1f}%")
+
+    # Assert that all cohort expressions validate successfully
+    if failures:
+        failure_details = "\n".join([f"  - {name}: {msg[:100]}..." for name, msg in failures[:5]])
+        if len(failures) > 5:
+            failure_details += f"\n  ... and {len(failures) - 5} more failures"
+        
+        pytest.fail(
+            f"{len(failures)} out of {total_cohort_expressions} cohort expressions failed validation:\n"
+            f"{failure_details}"
+        )
+
+    # Ensure we actually tested some cohort expressions
+    assert total_cohort_expressions > 0, "No cohort expressions found to validate"
+    assert successful_validations == total_cohort_expressions, f"Not all cohort expressions validated successfully"
+
+
+if __name__ == "__main__":
+    """Run as a standalone script for detailed reporting."""
+    import sys
+    
     # Find all JSON files in test resources
     test_resources = Path(__file__).parent / "resources"
     json_files = list(test_resources.rglob("*.json"))
 
     if not json_files:
         print("❌ No JSON files found in tests/resources")
-        return False
+        sys.exit(1)
 
     print(f"🔍 Found {len(json_files)} Circe JSON files to validate")
     print("=" * 80)
@@ -140,9 +203,5 @@ def main():
             print(f"\n🔧 NEEDS WORK: {success_rate:.1f}% success rate")
             print("🎯 Schema improvements required")
 
-    return total_cohort_expressions > 0 and success_rate == 100.0
-
-
-if __name__ == "__main__":
-    success = main()
+    success = total_cohort_expressions > 0 and success_rate == 100.0
     sys.exit(0 if success else 1)

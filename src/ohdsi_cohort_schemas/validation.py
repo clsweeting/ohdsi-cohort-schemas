@@ -11,11 +11,165 @@ business logic errors. They are provided as a convenience for common cases.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from typing import Any
 
 from pydantic import ValidationError
 
 from .models.cohort import CohortExpression
 from .models.common import Occurrence
+
+# WebAPI (camelCase) to Circe (mixed case) field mapping
+WEBAPI_TO_CIRCE_FIELD_MAP = {
+    # Top-level cohort fields
+    "conceptSets": "ConceptSets",
+    "primaryCriteria": "PrimaryCriteria",
+    "additionalCriteria": "AdditionalCriteria",
+    "qualifiedLimit": "QualifiedLimit",
+    "expressionLimit": "ExpressionLimit",
+    "inclusionRules": "InclusionRules",
+    "endStrategy": "EndStrategy",
+    "censoringCriteria": "CensoringCriteria",
+    "collapseSettings": "CollapseSettings",
+    "censorWindow": "CensorWindow",
+    "cdmVersionRange": "cdmVersionRange",  # stays camelCase
+    # ConceptSet fields
+    "id": "id",  # stays lowercase
+    "name": "name",  # stays lowercase
+    "expression": "expression",  # stays lowercase
+    "items": "items",  # stays lowercase
+    # ConceptSetItem fields
+    "concept": "concept",  # stays lowercase
+    "includeDescendants": "includeDescendants",  # stays camelCase
+    "isExcluded": "isExcluded",  # stays camelCase
+    "includeMapped": "includeMapped",  # stays camelCase
+    # Concept fields (OMOP vocabulary - ALL_CAPS)
+    "conceptId": "CONCEPT_ID",
+    "conceptName": "CONCEPT_NAME",
+    "conceptCode": "CONCEPT_CODE",
+    "conceptClassId": "CONCEPT_CLASS_ID",
+    "domainId": "DOMAIN_ID",
+    "vocabularyId": "VOCABULARY_ID",
+    "standardConcept": "STANDARD_CONCEPT",
+    "standardConceptCaption": "STANDARD_CONCEPT_CAPTION",
+    "invalidReason": "INVALID_REASON",
+    "invalidReasonCaption": "INVALID_REASON_CAPTION",
+    "validStartDate": "VALID_START_DATE",
+    "validEndDate": "VALID_END_DATE",
+    # PrimaryCriteria fields
+    "criteriaList": "CriteriaList",
+    "observationWindow": "ObservationWindow",
+    "primaryCriteriaLimit": "PrimaryCriteriaLimit",
+    # Window fields
+    "priorDays": "PriorDays",
+    "postDays": "PostDays",
+    # Limit fields
+    "type": "Type",
+    # Criteria fields
+    "conditionOccurrence": "ConditionOccurrence",
+    "conditionEra": "ConditionEra",
+    "drugExposure": "DrugExposure",
+    "drugEra": "DrugEra",
+    "doseEra": "DoseEra",
+    "procedureOccurrence": "ProcedureOccurrence",
+    "observation": "Observation",
+    "measurement": "Measurement",
+    "visitOccurrence": "VisitOccurrence",
+    "visitDetail": "VisitDetail",
+    "deviceExposure": "DeviceExposure",
+    "death": "Death",
+    "observationPeriod": "ObservationPeriod",
+    "specimen": "Specimen",
+    "locationRegion": "LocationRegion",
+    "payerPlanPeriod": "PayerPlanPeriod",
+    # Criteria attribute fields
+    "codesetId": "CodesetId",
+    "drugCodesetId": "DrugCodesetId",
+    "occurrenceStartDate": "OccurrenceStartDate",
+    "occurrenceEndDate": "OccurrenceEndDate",
+    "age": "Age",
+    "gender": "Gender",
+    "providerSpecialty": "ProviderSpecialty",
+    "visitType": "VisitType",
+    "correlatedCriteria": "CorrelatedCriteria",
+    # Date/Numeric range fields
+    "value": "Value",
+    "extent": "Extent",
+    "op": "Op",
+    # Occurrence fields
+    "count": "Count",
+    # "type": "Type",  # already mapped above
+    # Window/Period fields
+    "start": "Start",
+    "end": "End",
+    "startWindow": "StartWindow",
+    "endWindow": "EndWindow",
+    "eventStarts": "EventStarts",
+    "useEventEnd": "UseEventEnd",
+    "indexStartDate": "IndexStartDate",
+    "indexEndDate": "IndexEndDate",
+    # Additional criteria fields
+    "criteria": "Criteria",
+    "demographicCriteriaList": "DemographicCriteriaList",
+    "groups": "Groups",  # already mapped
+    "description": "description",  # stays lowercase
+    # End strategy fields
+    "customEra": "CustomEra",
+    "fixedDuration": "FixedDuration",
+    "gapDays": "GapDays",
+    "offset": "Offset",
+    # Collapse settings fields
+    "collapseType": "CollapseType",
+    "eraPad": "EraPad",
+    # Coefficient fields
+    "coeff": "Coeff",
+}
+
+# Create reverse mapping
+CIRCE_TO_WEBAPI_FIELD_MAP = {v: k for k, v in WEBAPI_TO_CIRCE_FIELD_MAP.items()}
+
+
+def convert_dict_keys_with_mapping(data: Any, mapping: dict[str, str]) -> Any:
+    """Recursively convert dictionary keys using the provided mapping."""
+    if isinstance(data, dict):
+        converted = {}
+        for k, v in data.items():
+            # Use mapping if available, otherwise keep the key as-is
+            new_key = mapping.get(k, k)
+            converted[new_key] = convert_dict_keys_with_mapping(v, mapping)
+        return converted
+    elif isinstance(data, list):
+        return [convert_dict_keys_with_mapping(item, mapping) for item in data]
+    else:
+        return data
+
+
+def webapi_to_circe_dict(data: dict[str, Any]) -> dict[str, Any]:
+    """Convert WebAPI (camelCase) format to Circe (mixed case) format."""
+    return convert_dict_keys_with_mapping(data, WEBAPI_TO_CIRCE_FIELD_MAP)
+
+
+def circe_to_webapi_dict(data: dict[str, Any]) -> dict[str, Any]:
+    """Convert Circe (mixed case) format to WebAPI (camelCase) format."""
+    return convert_dict_keys_with_mapping(data, CIRCE_TO_WEBAPI_FIELD_MAP)
+
+
+# Legacy aliases for backward compatibility
+camel_to_pascal_dict = webapi_to_circe_dict
+pascal_to_camel_dict = circe_to_webapi_dict
+
+
+def camel_to_pascal(name: str) -> str:
+    """Convert camelCase to PascalCase (legacy function - use mapping instead)."""
+    if not name:
+        return name
+    return name[0].upper() + name[1:]
+
+
+def pascal_to_camel(name: str) -> str:
+    """Convert PascalCase to camelCase (legacy function - use mapping instead)."""
+    if not name:
+        return name
+    return name[0].lower() + name[1:]
 
 
 @dataclass
@@ -273,3 +427,69 @@ def validate_strict(data: dict) -> CohortExpression:
     """Validate schema + business logic, raising on any issues."""
     cohort, _ = validate_cohort_with_business_logic(data, strict=True)
     return cohort
+
+
+# WebAPI format validation functions
+def validate_webapi_schema_only(data: dict[str, Any]) -> CohortExpression:
+    """Validate WebAPI (camelCase) format cohort expression - schema only.
+
+    Args:
+        data: Dictionary containing cohort expression in WebAPI camelCase format
+
+    Returns:
+        CohortExpression: Validated cohort expression model
+
+    Raises:
+        ValidationError: If validation fails
+    """
+    # Convert WebAPI format to Circe format for validation
+    circe_data = webapi_to_circe_dict(data)
+
+    # Validate using standard schema validation
+    return CohortExpression.model_validate(circe_data)
+
+
+def validate_webapi_with_warnings(data: dict[str, Any]) -> tuple[CohortExpression, list[ValidationIssue]]:
+    """Validate WebAPI (camelCase) format cohort expression with business logic warnings.
+
+    Args:
+        data: Dictionary containing cohort expression in WebAPI camelCase format
+
+    Returns:
+        tuple: (validated_expression, list_of_warnings)
+
+    Raises:
+        ValidationError: If schema validation fails
+    """
+    # Convert and validate schema first
+    expression = validate_webapi_schema_only(data)
+
+    # Run business logic validation
+    validator = BusinessLogicValidator()
+    warnings = validator.validate(expression)
+
+    return expression, warnings
+
+
+def validate_webapi_strict(data: dict[str, Any]) -> CohortExpression:
+    """Validate WebAPI (camelCase) format cohort expression with strict business logic validation.
+
+    Args:
+        data: Dictionary containing cohort expression in WebAPI camelCase format
+
+    Returns:
+        CohortExpression: Validated cohort expression model
+
+    Raises:
+        ValidationError: If schema validation fails
+        ValueError: If business logic validation fails
+    """
+    # Convert and validate with warnings
+    expression, warnings = validate_webapi_with_warnings(data)
+
+    # Raise error if any warnings found
+    if warnings:
+        error_messages = [f"{issue.level}: {issue.message}" for issue in warnings]
+        raise ValueError("Business logic validation failed:\n" + "\n".join(error_messages))
+
+    return expression
