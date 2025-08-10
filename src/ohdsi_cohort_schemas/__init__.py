@@ -50,13 +50,20 @@ from .models.vocabulary import Concept
 from .validation import (
     BusinessLogicValidator,
     ValidationIssue,
+    camel_to_pascal_dict,
+    circe_to_webapi_dict,
+    pascal_to_camel_dict,
     validate_cohort_with_business_logic,
     validate_schema_only,
     validate_strict,
+    validate_webapi_schema_only,
+    validate_webapi_strict,
+    validate_webapi_with_warnings,
     validate_with_warnings,
+    webapi_to_circe_dict,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.3.0"
 __all__ = [
     # Main models
     "CohortExpression",
@@ -73,8 +80,15 @@ __all__ = [
     # Business logic validation
     "BusinessLogicValidator",
     "ValidationIssue",
+    "camel_to_pascal_dict",
+    "circe_to_webapi_dict",
+    "pascal_to_camel_dict",
     "validate_cohort_with_business_logic",
     "validate_schema_only",
+    "validate_webapi_schema_only",
+    "validate_webapi_strict",
+    "validate_webapi_with_warnings",
     "validate_with_warnings",
     "validate_strict",
+    "webapi_to_circe_dict",
 ]

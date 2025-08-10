@@ -32,17 +32,59 @@ except ValidationError as e:
     print(f"❌ Schema errors: {e}")
 
 # Full validation with business logic checks (comprehensive)
-result = validate_with_warnings(cohort_json)
-if result.is_valid:
-    print("✅ Valid cohort definition!")
-    if result.warnings:
-        print("⚠️ Warnings:")
-        for warning in result.warnings:
-            print(f"  - {warning}")
-else:
-    print("❌ Validation failed:")
-    for error in result.errors:
-        print(f"  - {error}")
+cohort, warnings = validate_with_warnings(cohort_json)
+print("✅ Valid cohort definition!")
+if warnings:
+    print("⚠️ Warnings:")
+    for warning in warnings:
+        print(f"  - {warning.message}")
+```
+
+## WebAPI Format Support
+
+This library supports **WebAPI camelCase format** in addition to the native Circe mixed-case format. This enables seamless integration with OHDSI WebAPI clients.
+
+### Format Differences
+
+- **Circe Format**: Mixed case (PascalCase + camelCase + ALL_CAPS)
+  ```json
+  {
+    "ConceptSets": [{"id": 1, "expression": {"items": [{"concept": {"CONCEPT_ID": 123}}]}}],
+    "PrimaryCriteria": {"CriteriaList": [{"ConditionOccurrence": {"CodesetId": 1}}]}
+  }
+  ```
+
+- **WebAPI Format**: Consistent camelCase
+  ```json
+  {
+    "conceptSets": [{"id": 1, "expression": {"items": [{"concept": {"conceptId": 123}}]}}],
+    "primaryCriteria": {"criteriaList": [{"conditionOccurrence": {"codesetId": 1}}]}
+  }
+  ```
+
+### WebAPI Validation Functions
+
+```python
+from ohdsi_cohort_schemas import (
+    validate_webapi_schema_only,
+    validate_webapi_with_warnings,
+    validate_webapi_strict,
+    webapi_to_circe_dict,
+    circe_to_webapi_dict
+)
+
+# Validate WebAPI camelCase format directly
+cohort = validate_webapi_schema_only(webapi_json)
+
+# Get warnings for WebAPI format
+cohort, warnings = validate_webapi_with_warnings(webapi_json)
+
+# Strict validation (raises on warnings)
+cohort = validate_webapi_strict(webapi_json)
+
+# Format conversion
+circe_format = webapi_to_circe_dict(webapi_json)
+webapi_format = circe_to_webapi_dict(circe_json)
 ```
 
 ### Building Cohorts Programmatically
@@ -159,27 +201,101 @@ Support for all OMOP domain criteria:
 - `ObservationPeriod` - Data availability periods
 - `Specimen` - Biological specimen collection
 
-### Validation Examples
+## Library Scope
 
-#### Schema-Only Validation (Fast)
+This library focuses specifically on **cohort expression validation** - the clinical logic that defines patient selection criteria. It validates the `expression` portion of cohort definitions, which contains:
+
+- `ConceptSets` - Medical concept definitions
+- `PrimaryCriteria` - Index event definitions  
+- `InclusionRules` - Additional filtering criteria
+- `CensoringCriteria` - Observation period requirements
+
+### What This Library Does NOT Handle
+
+This library intentionally does **not** handle WebAPI metadata such as:
+- Cohort metadata (`id`, `name`, `description`)
+- Permission management (`hasWriteAccess`, `tags`)
+- User tracking (`createdBy`, `modifiedBy`)
+- Timestamps (`createdDate`, `modifiedDate`)
+
+These concerns are handled by API client libraries (like `ohdsi-webapi-client`) that focus on the full WebAPI response structure while using this library for the clinical validation of the `expression` field.
+
+### Integration Example
+
 ```python
-from ohdsi_cohort_schemas import validate_schema_only
-from pydantic import ValidationError
+# WebAPI client handles full response
+cohort_response = {
+    "id": 123,
+    "name": "My Cohort",
+    "hasWriteAccess": true,
+    "expression": {
+        "ConceptSets": [...],     # ← This library validates this part
+        "PrimaryCriteria": {...}  # ← And this part
+    }
+}
 
-# Fast schema validation - structure and types only
-try:
-    cohort = validate_schema_only(cohort_json)
-    print("✅ Valid schema!")
-except ValidationError as e:
-    print(f"❌ Schema errors: {e}")
+# Extract and validate just the expression
+from ohdsi_cohort_schemas import validate_webapi_schema_only
+validated_expression = validate_webapi_schema_only(cohort_response["expression"])
 ```
 
-#### Business Logic Validation (Comprehensive)
-```python
-from ohdsi_cohort_schemas import validate_with_warnings, validate_strict
+## JSON Format Support
 
-# Validation with warnings for best practices
-result = validate_with_warnings(cohort_json)
+This library supports two different JSON field naming conventions, reflecting the different contexts where cohort definitions are used:
+
+### Database Format (ALL_CAPS)
+Used by Circe backend test data and internal cohort processing:
+```json
+{
+  "concept": {
+    "CONCEPT_ID": 201826,
+    "CONCEPT_NAME": "Type 2 diabetes mellitus",
+    "VOCABULARY_ID": "SNOMED"
+  }
+}
+```
+
+### WebAPI Format (camelCase)  
+Used by OHDSI WebAPI JSON responses and web applications:
+```json
+{
+  "concept": {
+    "conceptId": 201826,
+    "conceptName": "Type 2 diabetes mellitus", 
+    "vocabularyId": "SNOMED"
+  }
+}
+```
+
+### Why Two Formats?
+
+- **Circe Backend Test Data**: Uses ALL_CAPS because it matches **OMOP CDM database column names** (which are traditionally UPPERCASE in SQL databases)
+
+- **WebAPI JSON Responses**: Uses camelCase because it follows **standard JSON/JavaScript conventions** for web APIs
+
+- **Different Purposes**:
+  - **Circe**: Internal cohort definition processing (matches database schema)
+  - **WebAPI**: External API communication (matches web standards)
+
+The library provides separate validation functions for each format to ensure seamless integration with both contexts.
+
+### Validation Examples
+
+#### WebAPI Format Validation (camelCase)
+For WebAPI responses and web application JSON:
+
+```python
+from ohdsi_cohort_schemas import validate_webapi_schema_only, validate_webapi_with_warnings
+
+# Fast schema validation for WebAPI format
+try:
+    cohort = validate_webapi_schema_only(webapi_json)  # camelCase format
+    print("✅ Valid WebAPI schema!")
+except ValidationError as e:
+    print(f"❌ Schema errors: {e}")
+
+# Full validation with business logic checks
+result = validate_webapi_with_warnings(webapi_json)
 if result.is_valid:
     print("✅ Valid cohort definition!")
     if result.warnings:
@@ -190,10 +306,32 @@ else:
     print("❌ Validation failed:")
     for error in result.errors:
         print(f"  - {error}")
+```
+
+#### Standard Validation Functions
+The main validation functions work with the Circe mixed-case format:
+
+```python
+from ohdsi_cohort_schemas import validate_schema_only, validate_with_warnings, validate_strict
+
+# Fast schema validation
+try:
+    cohort = validate_schema_only(circe_json)
+    print("✅ Valid schema!")
+except ValidationError as e:
+    print(f"❌ Schema errors: {e}")
+
+# Validation with warnings for best practices
+cohort, warnings = validate_with_warnings(circe_json)
+print("✅ Valid cohort definition!")
+if warnings:
+    print("⚠️ Warnings:")
+    for warning in warnings:
+        print(f"  - {warning.message}")
 
 # Strict validation - warnings treated as errors
 try:
-    cohort = validate_strict(cohort_json)
+    cohort = validate_strict(circe_json)
     print("✅ Perfect cohort definition!")
 except ValidationError as e:
     print(f"❌ Validation failed: {e}")
@@ -217,12 +355,12 @@ for issue in warnings:
     print(f"⚠️ {issue.rule}: {issue.message}")
 ```
 
-#### Legacy Validation API
+#### Direct Pydantic Validation
 ```python
 from ohdsi_cohort_schemas import CohortExpression
 from pydantic import ValidationError
 
-# Direct Pydantic validation (legacy approach)
+# Direct Pydantic validation (lowest-level approach)
 try:
     cohort = CohortExpression.model_validate(cohort_json)
     print("✅ Valid schema!")
