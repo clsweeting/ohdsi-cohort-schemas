@@ -81,6 +81,7 @@ class CohortExpression(BaseModel):
 
     class Config:
         """Pydantic configuration."""
+
         validate_by_name = True
         use_enum_values = True
 

@@ -26,40 +26,25 @@ def main():
                                 "CONCEPT_CODE": "44054006",
                                 "CONCEPT_CLASS_ID": "Clinical Finding",
                                 "VOCABULARY_ID": "SNOMED",
-                                "DOMAIN_ID": "Condition"
+                                "DOMAIN_ID": "Condition",
                             },
                             "includeDescendants": True,
                             "includeMapped": False,
-                            "isExcluded": False
+                            "isExcluded": False,
                         }
                     ]
-                }
+                },
             }
         ],
         "PrimaryCriteria": {
-            "CriteriaList": [
-                {
-                    "ConditionOccurrence": {
-                        "CodesetId": 0
-                    }
-                }
-            ],
-            "ObservationWindow": {
-                "PriorDays": 0,
-                "PostDays": 0
-            },
-            "PrimaryCriteriaLimit": {
-                "Type": "First"
-            }
+            "CriteriaList": [{"ConditionOccurrence": {"CodesetId": 0}}],
+            "ObservationWindow": {"PriorDays": 0, "PostDays": 0},
+            "PrimaryCriteriaLimit": {"Type": "First"},
         },
-        "QualifiedLimit": {
-            "Type": "First"
-        },
-        "ExpressionLimit": {
-            "Type": "First"
-        },
+        "QualifiedLimit": {"Type": "First"},
+        "ExpressionLimit": {"Type": "First"},
         "InclusionRules": [],
-        "CensoringCriteria": []
+        "CensoringCriteria": [],
     }
 
     try:
@@ -80,27 +65,16 @@ def main():
             print(f"  - {error['loc']}: {error['msg']}")
 
     # Example of invalid cohort
-    print("\n" + "="*50)
+    print("\n" + "=" * 50)
     print("Testing invalid cohort...")
 
     invalid_cohort_json = {
         "ConceptSets": [],  # Missing required concept set
         "PrimaryCriteria": {
-            "CriteriaList": [
-                {
-                    "ConditionOccurrence": {
-                        "CodesetId": 0  # References non-existent concept set
-                    }
-                }
-            ],
-            "ObservationWindow": {
-                "PriorDays": 0,
-                "PostDays": 0
-            },
-            "PrimaryCriteriaLimit": {
-                "Type": "InvalidType"  # Invalid limit type
-            }
-        }
+            "CriteriaList": [{"ConditionOccurrence": {"CodesetId": 0}}],  # References non-existent concept set
+            "ObservationWindow": {"PriorDays": 0, "PostDays": 0},
+            "PrimaryCriteriaLimit": {"Type": "InvalidType"},  # Invalid limit type
+        },
     }
 
     try:

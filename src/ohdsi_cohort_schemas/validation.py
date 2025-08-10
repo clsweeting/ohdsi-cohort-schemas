@@ -90,18 +90,16 @@ class BusinessLogicValidator:
 
         # Check primary criteria
         for i, criteria in enumerate(cohort.primary_criteria.criteria_list):
-            issues.extend(self._check_criteria_codeset_refs(
-                criteria, concept_set_ids, f"PrimaryCriteria.CriteriaList.{i}"
-            ))
+            issues.extend(self._check_criteria_codeset_refs(criteria, concept_set_ids, f"PrimaryCriteria.CriteriaList.{i}"))
 
         # Check inclusion rules
         if cohort.inclusion_rules:
             for i, rule in enumerate(cohort.inclusion_rules):
                 if rule.expression and rule.expression.criteria_list:
                     for j, criteria in enumerate(rule.expression.criteria_list):
-                        issues.extend(self._check_criteria_codeset_refs(
-                            criteria, concept_set_ids, f"InclusionRules.{i}.expression.CriteriaList.{j}"
-                        ))
+                        issues.extend(
+                            self._check_criteria_codeset_refs(criteria, concept_set_ids, f"InclusionRules.{i}.expression.CriteriaList.{j}")
+                        )
 
         return issues
 
@@ -120,11 +118,13 @@ class BusinessLogicValidator:
                     if codeset_field in field_value and field_value[codeset_field] is not None:
                         codeset_id = field_value[codeset_field]
                         if codeset_id not in concept_set_ids:
-                            issues.append(ValidationIssue(
-                                field_path=f"{path}.{field_name}.{codeset_field}",
-                                message=f"References non-existent concept set ID {codeset_id}. Available IDs: {sorted(concept_set_ids)}",
-                                severity="error"
-                            ))
+                            issues.append(
+                                ValidationIssue(
+                                    field_path=f"{path}.{field_name}.{codeset_field}",
+                                    message=f"References non-existent concept set ID {codeset_id}. Available IDs: {sorted(concept_set_ids)}",
+                                    severity="error",
+                                )
+                            )
 
         return issues
 
@@ -135,18 +135,22 @@ class BusinessLogicValidator:
         def check_occurrence(occurrence: Occurrence, path: str) -> None:
             if occurrence.type == 1 and occurrence.count == 0:
                 # "At most 0" doesn't make logical sense
-                issues.append(ValidationIssue(
-                    field_path=f"{path}.Occurrence",
-                    message="Occurrence type 'at most' (1) with count 0 is logically inconsistent",
-                    severity="error"
-                ))
+                issues.append(
+                    ValidationIssue(
+                        field_path=f"{path}.Occurrence",
+                        message="Occurrence type 'at most' (1) with count 0 is logically inconsistent",
+                        severity="error",
+                    )
+                )
             elif occurrence.type == 2 and occurrence.count == 0:
                 # "At least 0" is always true (redundant)
-                issues.append(ValidationIssue(
-                    field_path=f"{path}.Occurrence",
-                    message="Occurrence type 'at least' (2) with count 0 is always true (redundant)",
-                    severity="warning"
-                ))
+                issues.append(
+                    ValidationIssue(
+                        field_path=f"{path}.Occurrence",
+                        message="Occurrence type 'at least' (2) with count 0 is always true (redundant)",
+                        severity="warning",
+                    )
+                )
 
         # Check occurrences in primary criteria
         for i, criteria in enumerate(cohort.primary_criteria.criteria_list):
@@ -204,26 +208,25 @@ class BusinessLogicValidator:
         issues = []
 
         def check_age_range(age_range, path: str) -> None:
-            if age_range and hasattr(age_range, 'value') and hasattr(age_range, 'extent'):
-                if (age_range.value is not None and age_range.extent is not None and
-                    age_range.value > age_range.extent):
-                    issues.append(ValidationIssue(
-                        field_path=f"{path}.Age",
-                        message=f"Age range start ({age_range.value}) is greater than end ({age_range.extent})",
-                        severity="error"
-                    ))
+            if age_range and hasattr(age_range, "value") and hasattr(age_range, "extent"):
+                if age_range.value is not None and age_range.extent is not None and age_range.value > age_range.extent:
+                    issues.append(
+                        ValidationIssue(
+                            field_path=f"{path}.Age",
+                            message=f"Age range start ({age_range.value}) is greater than end ({age_range.extent})",
+                            severity="error",
+                        )
+                    )
                 if age_range.value is not None and age_range.value < 0:
-                    issues.append(ValidationIssue(
-                        field_path=f"{path}.Age",
-                        message=f"Age cannot be negative ({age_range.value})",
-                        severity="error"
-                    ))
+                    issues.append(
+                        ValidationIssue(field_path=f"{path}.Age", message=f"Age cannot be negative ({age_range.value})", severity="error")
+                    )
                 if age_range.extent is not None and age_range.extent > 150:
-                    issues.append(ValidationIssue(
-                        field_path=f"{path}.Age",
-                        message=f"Age over 150 ({age_range.extent}) seems unrealistic",
-                        severity="warning"
-                    ))
+                    issues.append(
+                        ValidationIssue(
+                            field_path=f"{path}.Age", message=f"Age over 150 ({age_range.extent}) seems unrealistic", severity="warning"
+                        )
+                    )
 
         # Check demographic criteria ages (simplified example)
         # In practice, we'd traverse all criteria types that can have age constraints
@@ -231,10 +234,7 @@ class BusinessLogicValidator:
         return issues
 
 
-def validate_cohort_with_business_logic(
-    data: dict,
-    strict: bool = False
-) -> tuple[CohortExpression, list[ValidationIssue]]:
+def validate_cohort_with_business_logic(data: dict, strict: bool = False) -> tuple[CohortExpression, list[ValidationIssue]]:
     """
     Convenience function to validate both schema and business logic.
 

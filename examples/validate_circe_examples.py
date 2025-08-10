@@ -44,7 +44,7 @@ def main():
     for test_file in test_files:
         print(f"\n{'='*60}")
         print(f"Testing: {test_file}")
-        print('='*60)
+        print("=" * 60)
 
         try:
             # Load the test cohort

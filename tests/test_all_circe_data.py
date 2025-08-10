@@ -19,11 +19,7 @@ from pydantic import ValidationError
 def is_cohort_expression(json_data: dict) -> bool:
     """Check if JSON looks like a cohort expression."""
     # CohortExpression should have ConceptSets and PrimaryCriteria
-    return (
-        isinstance(json_data, dict)
-        and "ConceptSets" in json_data
-        and "PrimaryCriteria" in json_data
-    )
+    return isinstance(json_data, dict) and "ConceptSets" in json_data and "PrimaryCriteria" in json_data
 
 
 def validate_file(json_path: Path) -> tuple[bool, str]:
@@ -119,10 +115,16 @@ def main():
     print("📊 FINAL RESULTS")
     print(f"   Total files processed: {total_files}")
     print(f"   Cohort expressions found: {total_cohort_expressions}")
-    print(f"   Successfully validated: {len([r for cat_results in results.values() for r in cat_results if r[1] and not r[2].startswith('SKIPPED')])}")
+    print(
+        f"   Successfully validated: {len([r for cat_results in results.values() for r in cat_results if r[1] and not r[2].startswith('SKIPPED')])}"
+    )
 
     if total_cohort_expressions > 0:
-        success_rate = len([r for cat_results in results.values() for r in cat_results if r[1] and not r[2].startswith('SKIPPED')]) / total_cohort_expressions * 100
+        success_rate = (
+            len([r for cat_results in results.values() for r in cat_results if r[1] and not r[2].startswith("SKIPPED")])
+            / total_cohort_expressions
+            * 100
+        )
         print(f"   Success rate: {success_rate:.1f}%")
 
         if success_rate == 100.0:

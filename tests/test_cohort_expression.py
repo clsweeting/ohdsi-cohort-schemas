@@ -10,19 +10,10 @@ def test_minimal_cohort_expression():
     data = {
         "ConceptSets": [],
         "PrimaryCriteria": {
-            "CriteriaList": [
-                {
-                    "ConditionOccurrence": {}
-                }
-            ],
-            "ObservationWindow": {
-                "PriorDays": 0,
-                "PostDays": 0
-            },
-            "PrimaryCriteriaLimit": {
-                "Type": "First"
-            }
-        }
+            "CriteriaList": [{"ConditionOccurrence": {}}],
+            "ObservationWindow": {"PriorDays": 0, "PostDays": 0},
+            "PrimaryCriteriaLimit": {"Type": "First"},
+        },
     }
 
     cohort = CohortExpression.model_validate(data)
@@ -49,32 +40,21 @@ def test_cohort_with_concept_sets():
                                 "CONCEPT_CODE": "TEST",
                                 "CONCEPT_CLASS_ID": "Test",
                                 "VOCABULARY_ID": "Test",
-                                "DOMAIN_ID": "Test"
+                                "DOMAIN_ID": "Test",
                             },
                             "include_descendants": True,
                             "include_mapped": False,
-                            "is_excluded": False
+                            "is_excluded": False,
                         }
                     ]
-                }
+                },
             }
         ],
         "PrimaryCriteria": {
-            "CriteriaList": [
-                {
-                    "ConditionOccurrence": {
-                        "CodesetId": 0
-                    }
-                }
-            ],
-            "ObservationWindow": {
-                "PriorDays": 0,
-                "PostDays": 0
-            },
-            "PrimaryCriteriaLimit": {
-                "Type": "First"
-            }
-        }
+            "CriteriaList": [{"ConditionOccurrence": {"CodesetId": 0}}],
+            "ObservationWindow": {"PriorDays": 0, "PostDays": 0},
+            "PrimaryCriteriaLimit": {"Type": "First"},
+        },
     }
 
     cohort = CohortExpression.model_validate(data)
@@ -104,19 +84,10 @@ def test_invalid_limit_type():
     data = {
         "ConceptSets": [],
         "PrimaryCriteria": {
-            "CriteriaList": [
-                {
-                    "ConditionOccurrence": {}
-                }
-            ],
-            "ObservationWindow": {
-                "PriorDays": 0,
-                "PostDays": 0
-            },
-            "PrimaryCriteriaLimit": {
-                "Type": "InvalidType"  # Should fail
-            }
-        }
+            "CriteriaList": [{"ConditionOccurrence": {}}],
+            "ObservationWindow": {"PriorDays": 0, "PostDays": 0},
+            "PrimaryCriteriaLimit": {"Type": "InvalidType"},  # Should fail
+        },
     }
 
     with pytest.raises(ValidationError) as exc_info:

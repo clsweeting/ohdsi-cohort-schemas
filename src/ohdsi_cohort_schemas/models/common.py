@@ -4,12 +4,12 @@ from __future__ import annotations
 
 from typing import Literal
 
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class Concept(BaseModel):
     """Represents an OMOP concept from a standardized vocabulary."""
-    
+
     model_config = ConfigDict(populate_by_name=True)
 
     concept_id: int = Field(..., alias="CONCEPT_ID", description="Unique identifier for the concept")
@@ -21,7 +21,9 @@ class Concept(BaseModel):
     domain_id: str = Field(..., alias="DOMAIN_ID", description="Domain identifier (e.g., 'Condition', 'Drug')")
     invalid_reason: str | None = Field(None, alias="INVALID_REASON", description="Reason why concept is invalid")
     invalid_reason_caption: str | None = Field(None, alias="INVALID_REASON_CAPTION", description="Human-readable invalid reason")
-    standard_concept_caption: str | None = Field(None, alias="STANDARD_CONCEPT_CAPTION", description="Human-readable standard concept status")
+    standard_concept_caption: str | None = Field(
+        None, alias="STANDARD_CONCEPT_CAPTION", description="Human-readable standard concept status"
+    )
 
 
 class DateRange(BaseModel):
