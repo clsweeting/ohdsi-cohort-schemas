@@ -40,9 +40,9 @@ if warnings:
         print(f"  - {warning.message}")
 ```
 
-## WebAPI Format Support (NEW in v0.2.0)
+## WebAPI Format Support
 
-This library now supports **WebAPI camelCase format** in addition to the native Circe mixed-case format. This enables seamless integration with OHDSI WebAPI clients.
+This library supports **WebAPI camelCase format** in addition to the native Circe mixed-case format. This enables seamless integration with OHDSI WebAPI clients.
 
 ### Format Differences
 
@@ -281,34 +281,6 @@ The library provides separate validation functions for each format to ensure sea
 
 ### Validation Examples
 
-#### Database Format Validation (ALL_CAPS)
-For Circe test data and database-formatted JSON:
-
-```python
-from ohdsi_cohort_schemas import validate_db_schema, validate_db_with_warnings
-from pydantic import ValidationError
-
-# Fast schema validation - structure and types only
-try:
-    cohort = validate_db_schema(circe_json)  # ALL_CAPS format
-    print("✅ Valid schema!")
-except ValidationError as e:
-    print(f"❌ Schema errors: {e}")
-
-# Full validation with business logic checks
-result = validate_db_with_warnings(circe_json)
-if result.is_valid:
-    print("✅ Valid cohort definition!")
-    if result.warnings:
-        print("⚠️ Warnings:")
-        for warning in result.warnings:
-            print(f"  - {warning}")
-else:
-    print("❌ Validation failed:")
-    for error in result.errors:
-        print(f"  - {error}")
-```
-
 #### WebAPI Format Validation (camelCase)
 For WebAPI responses and web application JSON:
 
@@ -336,13 +308,13 @@ else:
         print(f"  - {error}")
 ```
 
-#### Legacy API (Backward Compatibility)
-The original functions are still available and work with database format:
+#### Standard Validation Functions
+The main validation functions work with the Circe mixed-case format:
 
 ```python
 from ohdsi_cohort_schemas import validate_schema_only, validate_with_warnings, validate_strict
 
-# Legacy functions (equivalent to validate_db_* functions)
+# Fast schema validation
 try:
     cohort = validate_schema_only(circe_json)
     print("✅ Valid schema!")
@@ -383,12 +355,12 @@ for issue in warnings:
     print(f"⚠️ {issue.rule}: {issue.message}")
 ```
 
-#### Legacy Validation API
+#### Direct Pydantic Validation
 ```python
 from ohdsi_cohort_schemas import CohortExpression
 from pydantic import ValidationError
 
-# Direct Pydantic validation (legacy approach)
+# Direct Pydantic validation (lowest-level approach)
 try:
     cohort = CohortExpression.model_validate(cohort_json)
     print("✅ Valid schema!")
