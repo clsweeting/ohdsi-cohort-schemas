@@ -4,12 +4,12 @@ from __future__ import annotations
 
 from typing import Literal
 
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class Concept(BaseModel):
     """Represents an OMOP concept from a standardized vocabulary."""
-    
+
     model_config = ConfigDict(populate_by_name=True)
 
     concept_id: int = Field(..., alias="CONCEPT_ID", description="Unique identifier for the concept")

@@ -109,9 +109,9 @@ def test_collect_test_files_found_data():
 
 def test_file_categorization():
     """Test that files are correctly categorized."""
-    # All correct files should end with Correct.json
+    # All correct files should end with Correct.json OR Expression.json
     for file_path in CORRECT_FILES:
-        assert "Correct.json" in file_path.name
+        assert "Correct.json" in file_path.name or "Expression.json" in file_path.name
 
     # All incorrect files should end with Incorrect.json
     for file_path in INCORRECT_FILES:
