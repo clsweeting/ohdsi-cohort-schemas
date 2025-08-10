@@ -245,34 +245,6 @@ with open("cohort_schema.json", "w") as f:
     json.dump(schema, f, indent=2)
 ```
 
-## Integration with WebAPI Client
-
-This library integrates seamlessly with the OHDSI WebAPI client:
-
-```python
-from ohdsi_webapi import OHDSIWebAPIClient
-from ohdsi_cohort_schemas import validate_with_warnings
-
-client = OHDSIWebAPIClient()
-
-# Validate before sending to WebAPI
-cohort_json = {...}
-result = validate_with_warnings(cohort_json)
-
-if result.is_valid:
-    # Create validated cohort
-    created_cohort = await client.cohorts.create_from_expression(result.cohort)
-    
-    if result.warnings:
-        print("⚠️ Created with warnings:")
-        for warning in result.warnings:
-            print(f"  - {warning}")
-else:
-    print("❌ Cannot create cohort - validation failed:")
-    for error in result.errors:
-        print(f"  - {error}")
-```
-
 ## Test Data & Validation
 
 ### Test Data Structure
