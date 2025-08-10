@@ -13,7 +13,7 @@ def test_concept_creation():
         concept_code="44054006",
         concept_class_id="Clinical Finding",
         vocabulary_id="SNOMED",
-        domain_id="Condition"
+        domain_id="Condition",
     )
 
     assert concept.concept_id == 201826
@@ -30,15 +30,10 @@ def test_concept_set_item_creation():
         concept_code="44054006",
         concept_class_id="Clinical Finding",
         vocabulary_id="SNOMED",
-        domain_id="Condition"
+        domain_id="Condition",
     )
 
-    item = ConceptSetItem(
-        concept=concept,
-        include_descendants=True,
-        include_mapped=False,
-        is_excluded=False
-    )
+    item = ConceptSetItem(concept=concept, include_descendants=True, include_mapped=False, is_excluded=False)
 
     assert item.concept.concept_id == 201826
     assert item.include_descendants is True
@@ -55,23 +50,14 @@ def test_concept_set_creation():
         concept_code="44054006",
         concept_class_id="Clinical Finding",
         vocabulary_id="SNOMED",
-        domain_id="Condition"
+        domain_id="Condition",
     )
 
-    item = ConceptSetItem(
-        concept=concept,
-        include_descendants=True,
-        include_mapped=False,
-        is_excluded=False
-    )
+    item = ConceptSetItem(concept=concept, include_descendants=True, include_mapped=False, is_excluded=False)
 
     expression = ConceptSetExpression(items=[item])
 
-    concept_set = ConceptSet(
-        id=0,
-        name="Type 2 Diabetes",
-        expression=expression
-    )
+    concept_set = ConceptSet(id=0, name="Type 2 Diabetes", expression=expression)
 
     assert concept_set.id == 0
     assert concept_set.name == "Type 2 Diabetes"
@@ -94,14 +80,14 @@ def test_concept_set_from_dict():
                         "concept_code": "44054006",
                         "concept_class_id": "Clinical Finding",
                         "vocabulary_id": "SNOMED",
-                        "domain_id": "Condition"
+                        "domain_id": "Condition",
                     },
                     "include_descendants": True,
                     "include_mapped": False,
-                    "is_excluded": False
+                    "is_excluded": False,
                 }
             ]
-        }
+        },
     }
 
     concept_set = ConceptSet.model_validate(data)
@@ -127,14 +113,14 @@ def test_concept_set_with_aliases():
                         "CONCEPT_CLASS_ID": "Clinical Finding",  # Alias
                         "VOCABULARY_ID": "SNOMED",  # Alias
                         "DOMAIN_ID": "Condition",  # Alias
-                        "STANDARD_CONCEPT": "S"  # Alias
+                        "STANDARD_CONCEPT": "S",  # Alias
                     },
                     "includeDescendants": True,  # Alias
-                    "includeMapped": False,      # Alias
-                    "isExcluded": False          # Alias
+                    "includeMapped": False,  # Alias
+                    "isExcluded": False,  # Alias
                 }
             ]
-        }
+        },
     }
 
     concept_set = ConceptSet.model_validate(data)

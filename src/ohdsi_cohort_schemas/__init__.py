@@ -64,14 +64,12 @@ __all__ = [
     "ConceptSetExpression",
     "ConceptSetItem",
     "Concept",
-
     # Common types
     "Limit",
     "Window",
     "DateRange",
     "NumericRange",
     "Occurrence",
-
     # Business logic validation
     "BusinessLogicValidator",
     "ValidationIssue",

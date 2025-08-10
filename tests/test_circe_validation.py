@@ -16,11 +16,7 @@ from pydantic import ValidationError
 
 def is_cohort_expression(json_data: dict) -> bool:
     """Check if JSON looks like a cohort expression."""
-    return (
-        isinstance(json_data, dict)
-        and "ConceptSets" in json_data
-        and "PrimaryCriteria" in json_data
-    )
+    return isinstance(json_data, dict) and "ConceptSets" in json_data and "PrimaryCriteria" in json_data
 
 
 def collect_test_files() -> tuple[list[Path], list[Path]]:
@@ -65,8 +61,8 @@ def test_correct_files_should_validate(test_file: Path):
     cohort = CohortExpression.model_validate(data)
 
     # Basic sanity checks
-    assert hasattr(cohort, 'concept_sets')
-    assert hasattr(cohort, 'primary_criteria')
+    assert hasattr(cohort, "concept_sets")
+    assert hasattr(cohort, "primary_criteria")
 
 
 @pytest.mark.parametrize("test_file", INCORRECT_FILES, ids=lambda f: f.name)
@@ -79,7 +75,7 @@ def test_incorrect_files_should_fail_validation(test_file: Path):
 
     # Schema validation should still pass (these are business logic errors)
     cohort = CohortExpression.model_validate(data)
-    assert hasattr(cohort, 'concept_sets')
+    assert hasattr(cohort, "concept_sets")
 
     # But business logic validation should find issues
     cohort, issues = validate_with_warnings(data)
