@@ -7,9 +7,9 @@ to ensure maximum compatibility with OHDSI standards.
 """
 
 import json
-import pytest
 from pathlib import Path
 
+import pytest
 from ohdsi_cohort_schemas.models.cohort import CohortExpression
 from pydantic import ValidationError
 
@@ -53,7 +53,7 @@ def validate_file(json_path: Path) -> tuple[bool, str]:
 
 def test_all_circe_data_validates_successfully():
     """Test that all Circe test data validates successfully with our schema."""
-    
+
     # Find all JSON files in test resources
     test_resources = Path(__file__).parent / "resources"
     json_files = list(test_resources.rglob("*.json"))
@@ -84,17 +84,17 @@ def test_all_circe_data_validates_successfully():
 
     # Collect all failures for detailed reporting
     failures = []
-    for category, category_results in results.items():
+    for _, category_results in results.items():
         for file_path, success, message in category_results:
             if not success and not message.startswith("SKIPPED"):
                 failures.append((file_path.name, message))
 
     # Print summary for debugging
-    print(f"\nCirce validation summary:")
+    print("\nCirce validation summary:")
     print(f"  Total JSON files: {len(json_files)}")
     print(f"  Cohort expressions: {total_cohort_expressions}")
     print(f"  Successfully validated: {successful_validations}")
-    
+
     if total_cohort_expressions > 0:
         success_rate = (successful_validations / total_cohort_expressions) * 100
         print(f"  Success rate: {success_rate:.1f}%")
@@ -104,7 +104,7 @@ def test_all_circe_data_validates_successfully():
         failure_details = "\n".join([f"  - {name}: {msg[:100]}..." for name, msg in failures[:5]])
         if len(failures) > 5:
             failure_details += f"\n  ... and {len(failures) - 5} more failures"
-        
+
         pytest.fail(
             f"{len(failures)} out of {total_cohort_expressions} cohort expressions failed validation:\n"
             f"{failure_details}"
@@ -112,13 +112,13 @@ def test_all_circe_data_validates_successfully():
 
     # Ensure we actually tested some cohort expressions
     assert total_cohort_expressions > 0, "No cohort expressions found to validate"
-    assert successful_validations == total_cohort_expressions, f"Not all cohort expressions validated successfully"
+    assert successful_validations == total_cohort_expressions, "Not all cohort expressions validated successfully"
 
 
 if __name__ == "__main__":
     """Run as a standalone script for detailed reporting."""
     import sys
-    
+
     # Find all JSON files in test resources
     test_resources = Path(__file__).parent / "resources"
     json_files = list(test_resources.rglob("*.json"))
