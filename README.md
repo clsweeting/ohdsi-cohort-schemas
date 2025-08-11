@@ -1,6 +1,6 @@
 # OHDSI Cohort Schemas
 
-[![PyPI version](https://badge.fury.io/py/ohdsi-cohort-schemas.svg)](https://badge.fury.io/py/ohdsi-cohort-schemas)
+[![Version](https://img.shields.io/badge/version-0.4.0-blue.svg)](https://github.com/clsweeting/ohdsi-cohort-schemas)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
