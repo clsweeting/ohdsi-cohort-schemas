@@ -9,7 +9,6 @@ help:
 	@echo "  lint             Run linting with ruff"
 	@echo "  format           Format code with black"
 	@echo "  type-check       Run type checking with mypy"
-	@echo "  setup-test-data  Copy official Circe JSON test files"
 	@echo "  validate-examples Run example validation scripts"
 	@echo "  validate-all-circe Validate against ALL Circe test data (223 files)"
 	@echo "  check-all        Run all checks (lint, format, type-check, test)"
@@ -50,22 +49,6 @@ validate-examples:
 
 validate-all-circe:
 	poetry run python tests/test_all_circe_data.py
-
-setup-test-data:
-	@echo "Setting up official Circe test data..."
-	@if [ ! -d "../circe-be-master" ]; then \
-		echo "❌ circe-be-master repository not found. Please clone it first."; \
-		exit 1; \
-	fi
-	@mkdir -p test_data
-	@cp ../circe-be-master/src/test/resources/cohortgeneration/allCriteria/allCriteriaExpression.json test_data/
-	@cp ../circe-be-master/src/test/resources/cohortgeneration/inclusionRules/simpleInclusionRule.json test_data/
-	@cp ../circe-be-master/src/test/resources/cohortgeneration/firstOccurrence/firstOccurrenceTestExpression.json test_data/
-	@cp ../circe-be-master/src/test/resources/cohortgeneration/limits/limitExpression.json test_data/
-	@cp ../circe-be-master/src/test/resources/cohortgeneration/exits/fixedOffsetExpression.json test_data/
-	@cp ../circe-be-master/src/test/resources/cohortgeneration/correlatedCriteria/countsExpression.json test_data/
-	@cp ../circe-be-master/src/test/resources/cohortgeneration/mixedConceptsets/mixedConceptsetsExpression.json test_data/
-	@echo "✅ Copied $(shell ls test_data/*.json | wc -l) official Circe JSON files to test_data/"
 
 # Combined checks
 check-all: lint format-check type-check test

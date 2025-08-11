@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Validate Circe cohort expression examples from test_data folder.
+Validate Circe cohort expression examples from tests/resources/cohortgeneration.
 
 This script tests our Pydantic models against official Circe JSON examples
-that we've copied to our test_data folder for consistent testing.
+in the cohortgeneration folder from the original Circe-Be test resources.
 
 Run with: poetry run python examples/validate_test_data.py
 """
@@ -62,21 +62,21 @@ def validate_file(json_path: Path) -> bool:
 
 
 def main():
-    """Validate all Circe example files in our test_data folder."""
+    """Validate all Circe example files in tests/resources/cohortgeneration."""
 
-    # Use our test_data folder with official Circe JSONs
-    test_data_path = Path(__file__).parent.parent / "test_data"
+    # Use the existing cohortgeneration folder from Circe-Be resources
+    test_data_path = Path(__file__).parent.parent / "tests" / "resources" / "cohortgeneration"
 
     if not test_data_path.exists():
-        print(f"❌ Test data folder not found at: {test_data_path}")
-        print("   Run: make setup-test-data")
+        print(f"❌ Cohortgeneration folder not found at: {test_data_path}")
+        print("   Check that tests/resources/ contains the Circe-Be data")
         return False
 
-    # Find all JSON files
-    json_files = list(test_data_path.glob("*.json"))
+    # Find all JSON files recursively in cohortgeneration subfolders
+    json_files = list(test_data_path.glob("**/*.json"))
 
     if not json_files:
-        print("❌ No JSON files found in test_data folder")
+        print("❌ No JSON files found in cohortgeneration folder")
         return False
 
     print(f"Found {len(json_files)} official Circe JSON files to validate\n")
