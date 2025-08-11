@@ -22,22 +22,57 @@ pip install ohdsi-cohort-schemas
 ## Quick Start
 
 ```python
-from ohdsi_cohort_schemas import CohortExpression, validate_schema_only, validate_with_warnings
+import json
+from ohdsi_cohort_schemas import (
+    CohortExpression, 
+    validate_webapi_schema_only, 
+    validate_webapi_with_warnings
+)
+from pydantic import ValidationError
+
+# Example: Real cohort definition from OHDSI Atlas demo
+# This is how WebAPI responses look (expression is a JSON string)
+# Data source: tests/webapi_responses/atlas-demo/cohortdefinition/cohort_98149.json
+webapi_response = {
+    "id": 98149,
+    "name": "Humira + MI",
+    "expression": '{"cdmVersionRange":">=5.0.0","PrimaryCriteria":{"CriteriaList":[{"DrugEra":{"CodesetId":1,"AgeAtStart":{"Value":40,"Op":"gt"}}}],"ObservationWindow":{"PriorDays":180,"PostDays":180},"PrimaryCriteriaLimit":{"Type":"First"}},"AdditionalCriteria":{"Type":"ALL","CriteriaList":[{"Criteria":{"ConditionEra":{"CodesetId":0}},"StartWindow":{"Start":{"Days":7,"Coeff":1},"End":{"Days":90,"Coeff":1}},"RestrictVisit":false,"IgnoreObservationPeriod":false,"Occurrence":{"Type":2,"Count":1,"IsDistinct":false}}],"DemographicCriteriaList":[],"Groups":[]},"ConceptSets":[{"id":0,"name":"Myocardial Infarction","expression":{"items":[{"concept":{"CONCEPT_ID":4329847,"CONCEPT_NAME":"Myocardial infarction","STANDARD_CONCEPT":"S","CONCEPT_CODE":"22298006","DOMAIN_ID":"Condition","VOCABULARY_ID":"SNOMED","CONCEPT_CLASS_ID":"Clinical Finding"},"isExcluded":false,"includeDescendants":true,"includeMapped":false}]}}],"QualifiedLimit":{"Type":"First"},"ExpressionLimit":{"Type":"First"},"InclusionRules":[],"CensoringCriteria":[],"CollapseSettings":{"CollapseType":"ERA","EraPad":0}}',
+    "expressionType": "SIMPLE_EXPRESSION"
+}
+
+# Extract and parse the expression from WebAPI response
+expression_data = json.loads(webapi_response["expression"])
 
 # Quick schema validation (fast, Pydantic-only)
 try:
-    cohort = validate_schema_only(cohort_json)
+    cohort = validate_webapi_schema_only(expression_data)
     print("✅ Valid schema!")
+    print(f"Cohort name: {webapi_response['name']}")
+    print(f"Concept sets: {len(cohort.concept_sets)}")
+    print(f"Primary criteria: {cohort.primary_criteria.primary_criteria_limit.type}")
 except ValidationError as e:
     print(f"❌ Schema errors: {e}")
 
 # Full validation with business logic checks (comprehensive)
-cohort, warnings = validate_with_warnings(cohort_json)
-print("✅ Valid cohort definition!")
-if warnings:
-    print("⚠️ Warnings:")
-    for warning in warnings:
-        print(f"  - {warning.message}")
+try:
+    cohort, warnings = validate_webapi_with_warnings(expression_data)
+    if cohort:
+        print("✅ Valid cohort definition!")
+        if warnings:
+            print("⚠️ Warnings:")
+            for warning in warnings:
+                print(f"  - {warning.message}")
+    else:
+        print("❌ Validation failed")
+except Exception as e:
+    print(f"❌ Error: {e}")
+
+# Working with your own WebAPI endpoints:
+# import requests
+# response = requests.get("https://your-webapi/WebAPI/cohortdefinition/123")
+# webapi_data = response.json()
+# expression_data = json.loads(webapi_data["expression"])
+# cohort = validate_webapi_schema_only(expression_data)
 ```
 
 ## WebAPI Format Support
@@ -77,7 +112,10 @@ from ohdsi_cohort_schemas import (
 cohort = validate_webapi_schema_only(webapi_json)
 
 # Get warnings for WebAPI format
-cohort, warnings = validate_webapi_with_warnings(webapi_json)
+result = validate_webapi_with_warnings(webapi_json)
+if result.is_valid:
+    cohort = result.cohort
+    warnings = result.warnings
 
 # Strict validation (raises on warnings)
 cohort = validate_webapi_strict(webapi_json)
@@ -90,7 +128,16 @@ webapi_format = circe_to_webapi_dict(circe_json)
 ### Building Cohorts Programmatically
 
 ```python
-from ohdsi_cohort_schemas import CohortExpression, ConceptSet, ConceptSetItem, Concept
+from ohdsi_cohort_schemas import (
+    CohortExpression, 
+    ConceptSet, 
+    ConceptSetExpression,
+    ConceptSetItem, 
+    Concept,
+    Limit
+)
+from ohdsi_cohort_schemas.models.cohort import PrimaryCriteria
+from ohdsi_cohort_schemas.models.common import ObservationWindow
 
 # Define a concept set
 concept = Concept(
@@ -110,16 +157,28 @@ concept_set_item = ConceptSetItem(
     is_excluded=False
 )
 
+concept_set_expression = ConceptSetExpression(items=[concept_set_item])
+
 concept_set = ConceptSet(
     id=0,
     name="Type 2 Diabetes",
-    expression=ConceptSetExpression(items=[concept_set_item])
+    expression=concept_set_expression
 )
 
 # Build a complete cohort expression
+# Note: This is a minimal example - real cohorts need complete primary criteria
+primary_criteria = PrimaryCriteria(
+    criteria_list=[],  # Would contain actual criteria in real usage
+    observation_window=ObservationWindow(
+        prior_days=0,
+        post_days=0
+    ),
+    primary_criteria_limit=Limit(Type="First")
+)
+
 cohort_expression = CohortExpression(
     concept_sets=[concept_set],
-    primary_criteria=...,  # Define primary criteria
+    primary_criteria=primary_criteria,
     inclusion_rules=[],    # Optional inclusion rules
     censoring_criteria=[]  # Optional censoring criteria
 )
@@ -322,12 +381,17 @@ except ValidationError as e:
     print(f"❌ Schema errors: {e}")
 
 # Validation with warnings for best practices
-cohort, warnings = validate_with_warnings(circe_json)
-print("✅ Valid cohort definition!")
-if warnings:
-    print("⚠️ Warnings:")
-    for warning in warnings:
-        print(f"  - {warning.message}")
+result = validate_with_warnings(circe_json)
+if result.is_valid:
+    print("✅ Valid cohort definition!")
+    if result.warnings:
+        print("⚠️ Warnings:")
+        for warning in result.warnings:
+            print(f"  - {warning.message}")
+else:
+    print("❌ Validation failed:")
+    for error in result.errors:
+        print(f"  - {error}")
 
 # Strict validation - warnings treated as errors
 try:
@@ -396,6 +460,13 @@ tests/resources/
 │   └── *Incorrect.json      # Invalid cohorts (should fail validation)
 ├── conceptset/              # Standalone concept set expressions
 └── cohortgeneration/        # Complete cohort definitions
+
+tests/webapi_responses/
+└── atlas-demo/              # Real WebAPI responses from OHDSI Atlas demo
+    ├── cohortdefinition/    # Complete cohort definitions (used in Quick Start)
+    ├── conceptset/          # Concept set definitions
+    ├── vocabulary/          # Vocabulary metadata
+    └── source/              # Data source information
 ```
 
 ### Test Categories
@@ -404,6 +475,7 @@ tests/resources/
 - **Business Logic Tests**: Files ending with `Correct.json` should pass all validation rules
 - **Negative Tests**: Files ending with `Incorrect.json` should fail business logic validation
 - **Concept Set Tests**: Standalone concept set expressions for testing concept-related logic
+- **WebAPI Response Tests**: Real cohort definitions from OHDSI Atlas demo instance
 
 ### Data Source Attribution
 

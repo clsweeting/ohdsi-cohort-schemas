@@ -1,0 +1,2963 @@
+[
+  {
+    "CONCEPT_ID": 2918957,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injection [Dupixent] Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135774",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918959,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injection [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135775",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918955,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injection [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135773",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918972,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injection Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135788",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918973,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injection Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135789",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918974,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injection",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135790",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918975,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injectable Solution Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135791",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918968,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injection [Dupixent] Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135784",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918969,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injection [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135785",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918970,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injection [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135786",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918971,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injection Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135787",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918964,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injection",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135780",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918965,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135781",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918966,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injectable Solution Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135782",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918967,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injection [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135783",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918960,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injection [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135776",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918961,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injection Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135777",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918962,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injection Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135778",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918963,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injection Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135779",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903564,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injection [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120406",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905868,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injection Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122658",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903565,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injection Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120407",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905869,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injection",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122659",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905870,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122660",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903566,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injection Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120408",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903567,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injection Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120409",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905864,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injection [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122654",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42614447,
+    "CONCEPT_NAME": "dupilumab Injection",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5159521",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Form",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905865,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injection [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122655",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903561,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injection [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120403",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905866,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injection Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122656",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903562,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injection [Dupixent] Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120404",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905867,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injection Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122657",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903563,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injection [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120405",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36945434,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent] by Sanofi Genzyme",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5208613",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1684713600000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905862,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injection [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122652",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2905863,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injection [Dupixent] Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5122653",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42614448,
+    "CONCEPT_NAME": "dupilumab Injection [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5159522",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Form",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903568,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injection",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120410",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903569,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120411",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2903570,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution Box of 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5120412",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1537617,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Auto-Injector [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2559707",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1627862400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1537616,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Auto-Injector",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2559706",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1627862400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1146201,
+    "CONCEPT_NAME": "dupilumab Auto-Injector",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2375326",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug Form",
+    "VALID_START_DATE": 1596412800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1146203,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Auto-Injector",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2375330",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1596412800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1146202,
+    "CONCEPT_NAME": "dupilumab Auto-Injector [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2375328",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug Form",
+    "VALID_START_DATE": 1596412800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1146204,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Auto-Injector [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2375331",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1596412800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36037239,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5047328",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40744761,
+    "CONCEPT_NAME": "dupilumab Injectable Solution [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4712350",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Form",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40744760,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injectable Solution",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4712351",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40744762,
+    "CONCEPT_NAME": "dupilumab Injectable Solution",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4712349",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Form",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40744757,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4712354",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40744756,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Prefilled Syringe Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4712355",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40744759,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injectable Solution Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4712352",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40744758,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injectable Solution [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4712353",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40744755,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Prefilled Syringe [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4712356",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36053574,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 2 by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4978758",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36053575,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4978759",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593467,
+    "CONCEPT_NAME": "dupilumab",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876376",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Ingredient",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 0
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36053573,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe [Dupixent] by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4978757",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36936795,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 6 by Sanofi Genzyme",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5209077",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1684713600000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1971570,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Auto-Injector Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5164144",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1643328000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36053578,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4978762",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918976,
+    "CONCEPT_NAME": "dupilumab Injection [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135792",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Form",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36053579,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4978763",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 2918977,
+    "CONCEPT_NAME": "dupilumab Injection",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5135793",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Form",
+    "VALID_START_DATE": 1625011200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1971571,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Auto-Injector [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5164145",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1643328000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36053576,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent] by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4978760",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36053577,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4978761",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36062551,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4988579",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36956226,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 2 by Sanofi Genzyme",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5208614",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1684713600000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36421209,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Prefilled Syringe Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4763493",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1538524800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36421208,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Prefilled Syringe [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4763492",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1538524800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36062556,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injectable Solution Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4988584",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36062554,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injectable Solution",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4988582",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36062555,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4988583",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36062552,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injectable Solution [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4988580",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36062553,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injectable Solution Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4988581",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1972894,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Auto-Injector Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5165457",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1643328000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593496,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876406",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1972895,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Auto-Injector [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5165458",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1643328000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593497,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Prefilled Syringe",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876407",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593498,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML Prefilled Syringe [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876408",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36923835,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 2 by Sanofi Genzyme",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5209076",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1684713600000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593488,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876398",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593489,
+    "CONCEPT_NAME": "dupilumab Injectable Product",
+    "STANDARD_CONCEPT": "C",
+    "STANDARD_CONCEPT_CAPTION": "Classification",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876399",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Dose Group",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593490,
+    "CONCEPT_NAME": "dupilumab Prefilled Syringe",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876400",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug Form",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593491,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876401",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593493,
+    "CONCEPT_NAME": "dupilumab 150 MG/ML [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876403",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug Comp",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593494,
+    "CONCEPT_NAME": "dupilumab Prefilled Syringe [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876404",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug Form",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1593495,
+    "CONCEPT_NAME": "Dupixent Injectable Product",
+    "STANDARD_CONCEPT": "C",
+    "STANDARD_CONCEPT_CAPTION": "Classification",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1876405",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Dose Group",
+    "VALID_START_DATE": 1502064000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1146755,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Auto-Injector [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2375329",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1596412800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1146754,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Auto-Injector",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2375327",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1596412800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 702620,
+    "CONCEPT_NAME": "0.67 ML dupilumab 150 MG/ML Prefilled Syringe",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2583634",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1641168000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 702621,
+    "CONCEPT_NAME": "0.67 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2583635",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1641168000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717517,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739784",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717516,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739785",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717513,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739788",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717512,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 2 by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739789",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717515,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739786",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717514,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739787",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717509,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739792",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717508,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent] Box of 2 by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739793",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717511,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739790",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40717510,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent] by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4739791",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1528070400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1537189,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Auto-Injector [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2559709",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1627862400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1537188,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Auto-Injector",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2559708",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1627862400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35201187,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2101124",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35201189,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Prefilled Syringe",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2101128",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35201188,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2101126",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug Comp",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35201190,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Prefilled Syringe [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2101129",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35202011,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2099302",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Branded Drug",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35202010,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2099300",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36418798,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4761102",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1538524800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36418797,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4761101",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1538524800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36036079,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5046086",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36036078,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Injectable Solution Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5046085",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42875478,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Prefilled Syringe [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4872592",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36037373,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent] Box of 2 by Abacus Medicine",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5047369",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36037372,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 6 by Abacus Medicine",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5047368",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42875479,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Prefilled Syringe [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4872593",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Branded Drug Box",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42875476,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Prefilled Syringe Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4872590",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36037374,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent] Box of 6 by Abacus Medicine",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5047370",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42875477,
+    "CONCEPT_NAME": "dupilumab 175 MG/ML Prefilled Syringe Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4872591",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Clinical Drug Box",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36037371,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 2 by Abacus Medicine",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5047367",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36055490,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4980850",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36055491,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4980851",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36055489,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] Box of 6 by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4980849",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1597622400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36037333,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5047329",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35201000,
+    "CONCEPT_NAME": "dupilumab 200 MG/ML Prefilled Syringe [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2099304",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36037334,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Injectable Solution [Dupixent] Box of 6 by Abacus Medicine",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5047330",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1623888000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42876538,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe [Dupixent] Box of 6 by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4873644",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42876536,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe [Dupixent] Box of 2 by Sanofi",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4873642",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42876537,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe [Dupixent] Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4873643",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42876534,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe Box of 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4873640",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42876535,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe [Dupixent] Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4873641",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Branded Box",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42876533,
+    "CONCEPT_NAME": "1.14 ML dupilumab 175 MG/ML Prefilled Syringe Box of 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP4873639",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Quant Clinical Box",
+    "VALID_START_DATE": 1579046400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36959439,
+    "CONCEPT_NAME": "2 ML dupilumab 150 MG/ML Injectable Solution [Dupixent] by Sanofi Genzyme",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5209075",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm Extension",
+    "CONCEPT_CLASS_ID": "Marketed Product",
+    "VALID_START_DATE": 1684713600000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35200997,
+    "CONCEPT_NAME": "dupilumab 200 MG/ML",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2099299",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35200999,
+    "CONCEPT_NAME": "dupilumab 200 MG/ML Prefilled Syringe",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2099303",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Clinical Drug",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 35200998,
+    "CONCEPT_NAME": "dupilumab 200 MG/ML [Dupixent]",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2099301",
+    "DOMAIN_ID": "Drug",
+    "VOCABULARY_ID": "RxNorm",
+    "CONCEPT_CLASS_ID": "Branded Drug Comp",
+    "VALID_START_DATE": 1543795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  }
+]

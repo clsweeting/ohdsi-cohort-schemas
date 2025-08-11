@@ -1,0 +1,17 @@
+[
+  {
+    "id": {
+      "cohortDefinitionId": 101431,
+      "sourceId": 6
+    },
+    "startTime": 1684481038937,
+    "executionDuration": 30198,
+    "status": "COMPLETE",
+    "isValid": true,
+    "isCanceled": false,
+    "failMessage": null,
+    "personCount": 0,
+    "recordCount": 0,
+    "createdBy": null
+  }
+]

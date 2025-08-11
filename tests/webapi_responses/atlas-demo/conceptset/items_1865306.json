@@ -1,0 +1,34 @@
+[
+  {
+    "id": 2214190,
+    "conceptSetId": 1865306,
+    "conceptId": 37311060,
+    "isExcluded": 0,
+    "includeDescendants": 1,
+    "includeMapped": 0
+  },
+  {
+    "id": 2214191,
+    "conceptSetId": 1865306,
+    "conceptId": 4100065,
+    "isExcluded": 0,
+    "includeDescendants": 1,
+    "includeMapped": 0
+  },
+  {
+    "id": 2214192,
+    "conceptSetId": 1865306,
+    "conceptId": 439676,
+    "isExcluded": 0,
+    "includeDescendants": 1,
+    "includeMapped": 0
+  },
+  {
+    "id": 2214193,
+    "conceptSetId": 1865306,
+    "conceptId": 37311060,
+    "isExcluded": 0,
+    "includeDescendants": 1,
+    "includeMapped": 0
+  }
+]
