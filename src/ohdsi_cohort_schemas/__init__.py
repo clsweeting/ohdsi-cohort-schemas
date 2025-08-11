@@ -1,7 +1,10 @@
 """
 OHDSI Cohort Schemas
 
-Pydantic models for validating OHDSI/Circe cohort definition schemas.
+Pydantic models for validating OHDSI/Circe cohort definition schem    webapi_to_circe_dict,
+]
+
+__version__ = "0.4.0".
 
 Basic Usage (Schema Validation Only):
     from ohdsi_cohort_schemas import CohortExpression

@@ -1,0 +1,32 @@
+[
+  {
+    "id": {
+      "cohortDefinitionId": 98149,
+      "sourceId": 5
+    },
+    "startTime": 1533040745993,
+    "executionDuration": 2074,
+    "status": "COMPLETE",
+    "isValid": true,
+    "isCanceled": false,
+    "failMessage": null,
+    "personCount": 0,
+    "recordCount": 0,
+    "createdBy": null
+  },
+  {
+    "id": {
+      "cohortDefinitionId": 98149,
+      "sourceId": 6
+    },
+    "startTime": 1533040737607,
+    "executionDuration": 1448,
+    "status": "COMPLETE",
+    "isValid": true,
+    "isCanceled": false,
+    "failMessage": null,
+    "personCount": 0,
+    "recordCount": 0,
+    "createdBy": null
+  }
+]

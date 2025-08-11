@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "ohdsi-cohort-schemas"
-version = "0.3.0"
+version = "0.4.0"
 description = "Pydantic models for validating OHDSI/Circe cohort definition schemas"
 authors = ["Chase Sweeting <chassweeting@users.noreply.github.com>"]
 readme = "README.md"

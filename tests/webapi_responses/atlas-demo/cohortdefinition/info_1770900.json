@@ -1,0 +1,47 @@
+[
+  {
+    "id": {
+      "cohortDefinitionId": 1770900,
+      "sourceId": 7
+    },
+    "startTime": 1692179144581,
+    "executionDuration": 653,
+    "status": "COMPLETE",
+    "isValid": false,
+    "isCanceled": false,
+    "failMessage": "org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [DELETE FROM synpuf5pct_results.cohort_inclusion WHERE cohort_definition_id = 1770900]; nested exception is org.postgresql.util.PSQLException: ERROR: permission denied for table cohort_inclusion",
+    "personCount": null,
+    "recordCount": null,
+    "createdBy": null
+  },
+  {
+    "id": {
+      "cohortDefinitionId": 1770900,
+      "sourceId": 5
+    },
+    "startTime": 1562606441645,
+    "executionDuration": 27212,
+    "status": "COMPLETE",
+    "isValid": true,
+    "isCanceled": false,
+    "failMessage": null,
+    "personCount": 0,
+    "recordCount": 0,
+    "createdBy": null
+  },
+  {
+    "id": {
+      "cohortDefinitionId": 1770900,
+      "sourceId": 6
+    },
+    "startTime": 1605524893491,
+    "executionDuration": 8169,
+    "status": "COMPLETE",
+    "isValid": true,
+    "isCanceled": false,
+    "failMessage": null,
+    "personCount": 0,
+    "recordCount": 0,
+    "createdBy": null
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "version": "2.14.0",
+  "buildInfo": {
+    "artifactVersion": "WebAPI 2.14.0",
+    "build": "NA",
+    "timestamp": "Sun Sep 01 21:14:03 UTC 2024",
+    "branch": "unknown",
+    "commitId": "unknown",
+    "atlasRepositoryInfo": {
+      "milestoneId": 42,
+      "releaseTag": "*"
+    },
+    "webapiRepositoryInfo": {
+      "milestoneId": 43,
+      "releaseTag": "*"
+    }
+  },
+  "configuration": {
+    "security": {
+      "samlActivated": false,
+      "enabled": false,
+      "samlEnabled": false
+    },
+    "vocabulary": {
+      "solrEnabled": true
+    },
+    "plugins": {
+      "atlasgisEnabled": false
+    },
+    "person": {
+      "viewDatesPermitted": false
+    },
+    "heracles": {
+      "smallCellCount": "5"
+    }
+  }
+}

@@ -1,0 +1,3152 @@
+[
+  {
+    "CONCEPT_ID": 37204277,
+    "CONCEPT_NAME": "Primary microcephaly, epilepsy, permanent neonatal diabetes syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "782825008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1564531200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 4
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37168690,
+    "CONCEPT_NAME": "Wolfram syndrome type 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1285519007",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1688083200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37168689,
+    "CONCEPT_NAME": "Wolfram syndrome type 1",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1285518004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1688083200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36713275,
+    "CONCEPT_NAME": "Atypical diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "530558861000132104",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1485820800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4322638,
+    "CONCEPT_NAME": "Wolfram syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "70694009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4096042,
+    "CONCEPT_NAME": "Malnutrition-related diabetes mellitus without complications",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "190412005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 44787902,
+    "CONCEPT_NAME": "Lipoatrophic diabetes mellitus without complication",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "112991000000101",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1091232000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37396524,
+    "CONCEPT_NAME": "Gingival disease co-occurrent with diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "716362006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1469923200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37116960,
+    "CONCEPT_NAME": "Wolfram-like syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "734022008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1501459200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37162799,
+    "CONCEPT_NAME": "Intrauterine growth restriction, short stature, early adult-onset diabetes syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1197592001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1646006400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45766050,
+    "CONCEPT_NAME": "Diabetes mellitus in remission",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "703136005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1406764800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3178281,
+    "CONCEPT_NAME": "Diabetes mellitus complicating Cystic fibrosis",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2350001000004101",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45766051,
+    "CONCEPT_NAME": "Type I diabetes mellitus in remission",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "703137001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1406764800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36715051,
+    "CONCEPT_NAME": "Atherosclerosis, deafness, diabetes, epilepsy, nephropathy syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "720519003",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1485820800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45766052,
+    "CONCEPT_NAME": "Type II diabetes mellitus in remission",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "703138006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1406764800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4047906,
+    "CONCEPT_NAME": "Insulin dependent diabetes mellitus type 1A",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "23045005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 201254,
+    "CONCEPT_NAME": "Type 1 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "46635009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 766253,
+    "CONCEPT_NAME": "Exacerbation of type 2 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5181808",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "OMOP Extension",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1657584000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 766252,
+    "CONCEPT_NAME": "Exacerbation of type 1 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5181807",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "OMOP Extension",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1657584000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 193323,
+    "CONCEPT_NAME": "Neonatal diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "49817004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40482883,
+    "CONCEPT_NAME": "Posttransplant diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "445260006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1280534400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4178452,
+    "CONCEPT_NAME": "Diabetes mellitus associated with pancreatic disease",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "51002006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45757079,
+    "CONCEPT_NAME": "Pre-existing diabetes mellitus in mother complicating childbirth",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "106281000119103",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1406764800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 4
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 765478,
+    "CONCEPT_NAME": "Diabetes mellitus caused by drug without complication",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "367391000119102",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1456790400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4230254,
+    "CONCEPT_NAME": "Type 2 diabetes mellitus in nonobese",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "359642000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37110041,
+    "CONCEPT_NAME": "Permanent neonatal diabetes mellitus with cerebellar agenesis syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "724067006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1501459200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 4
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45757077,
+    "CONCEPT_NAME": "Diabetes mellitus due to pancreatic injury",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "105401000119101",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1422662400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4140808,
+    "CONCEPT_NAME": "Rabson-Mendenhall syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "33559001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3194119,
+    "CONCEPT_NAME": "Poorly controlled type 1 diabetes",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "29680001000004109",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4099334,
+    "CONCEPT_NAME": "Steroid-induced diabetes",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "190447002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37204232,
+    "CONCEPT_NAME": "Primary microcephaly, mild intellectual disability, young-onset diabetes syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "782755007",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1564531200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40484649,
+    "CONCEPT_NAME": "Well controlled type 1 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "444074000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1264896000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4327944,
+    "CONCEPT_NAME": "Malnutrition related diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "75524006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4130164,
+    "CONCEPT_NAME": "Maturity onset diabetes of the young, type 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237604008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3192955,
+    "CONCEPT_NAME": "Poorly controlled type I diabetes with neuropathy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10130001000004101",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4237068,
+    "CONCEPT_NAME": "Diabetes mellitus due to structurally abnormal insulin",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "91352004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4130162,
+    "CONCEPT_NAME": "Insulin treated type 2 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237599002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3196797,
+    "CONCEPT_NAME": "Poorly controlled type I diabetes with complication",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10110001000004106",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4030066,
+    "CONCEPT_NAME": "Photomyoclonus, diabetes mellitus, deafness, nephropathy and cerebral dysfunction",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237612000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45757674,
+    "CONCEPT_NAME": "Diabetes mellitus type 1 without retinopathy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "31321000119102",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1422662400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4030061,
+    "CONCEPT_NAME": "Malnutrition-related diabetes mellitus - fibrocalculous",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237600004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4245270,
+    "CONCEPT_NAME": "Diabetes mellitus associated with genetic syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "5969009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37311329,
+    "CONCEPT_NAME": "Woodhouse Sakati syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "816067005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1580428800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 42537681,
+    "CONCEPT_NAME": "Diabetes mellitus caused by chemical",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "737212004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1517356800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4178790,
+    "CONCEPT_NAME": "Diabetes mellitus associated with receptor abnormality",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "42954008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4129378,
+    "CONCEPT_NAME": "Transient neonatal diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237603002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 606039,
+    "CONCEPT_NAME": "Pre-existing malnutrition-related diabetes mellitus in pregnancy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1142044000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1627689600000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 201820,
+    "CONCEPT_NAME": "Diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "73211009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 0
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4326434,
+    "CONCEPT_NAME": "Gestational diabetes mellitus class A1",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "75022004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 201826,
+    "CONCEPT_NAME": "Type 2 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "44054006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1340528,
+    "CONCEPT_NAME": "Slowly progressive insulin dependent diabetes mellitus type 1A",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5166183",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "OMOP Extension",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1651795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37204818,
+    "CONCEPT_NAME": "Myopathy and diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "783722008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1564531200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531006,
+    "CONCEPT_NAME": "Maturity onset diabetes of the young, type 1",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609562003",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531007,
+    "CONCEPT_NAME": "Pre-existing diabetes mellitus in pregnancy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609563008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4192852,
+    "CONCEPT_NAME": "Diabetes mellitus caused by insulin receptor antibodies",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "75682002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4024659,
+    "CONCEPT_NAME": "Gestational diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "11687002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45757129,
+    "CONCEPT_NAME": "Diabetes mellitus in mother complicating childbirth",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10754881000119104",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1406764800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37165632,
+    "CONCEPT_NAME": "Juvenile-onset diabetes mellitus, central and peripheral neurodegeneration syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1255271005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1667174400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1340515,
+    "CONCEPT_NAME": "Progression of diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5166170",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "OMOP Extension",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1651795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4048202,
+    "CONCEPT_NAME": "Houssay's syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "123763000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4131907,
+    "CONCEPT_NAME": "Lipoatrophic diabetes",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "127012008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4099651,
+    "CONCEPT_NAME": "Type 2 diabetes mellitus with ulcer",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "190389009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45757124,
+    "CONCEPT_NAME": "Gestational diabetes mellitus in childbirth",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10753491000119101",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1406764800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4063043,
+    "CONCEPT_NAME": "Pre-existing type 2 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "199230006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4006979,
+    "CONCEPT_NAME": "Leprechaunism syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "111307005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4063042,
+    "CONCEPT_NAME": "Pre-existing type 1 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "199229001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1340306,
+    "CONCEPT_NAME": "Exacerbation of diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "OMOP5165961",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "OMOP Extension",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1651795200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3193274,
+    "CONCEPT_NAME": "Poorly controlled type 2 diabetes",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "29690001000004108",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37163452,
+    "CONCEPT_NAME": "Fulminant type 1 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1217068008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1651276800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4240589,
+    "CONCEPT_NAME": "Diabetes mellitus associated with hormonal etiology",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "59079001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 194700,
+    "CONCEPT_NAME": "Diabetes mellitus in mother complicating pregnancy, childbirth AND/OR puerperium",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "76751001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3192767,
+    "CONCEPT_NAME": "Poorly controlled type II diabetes with circulatory disease",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10140001000004100",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531016,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 9",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609576002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37163431,
+    "CONCEPT_NAME": "Ketosis-resistant diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1217044000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1651276800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531017,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 10",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609577006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531018,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 11",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609578001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531019,
+    "CONCEPT_NAME": "Diabetes mellitus, transient neonatal 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609580007",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 4
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3661732,
+    "CONCEPT_NAME": "Newly diagnosed type 1 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "870528001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1596153600000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531020,
+    "CONCEPT_NAME": "Diabetes mellitus, transient neonatal 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609581006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 4
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3198118,
+    "CONCEPT_NAME": "Poorly controlled diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "29770001000004105",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4143529,
+    "CONCEPT_NAME": "Diabetes mellitus associated with cystic fibrosis",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "426705001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1185840000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4193704,
+    "CONCEPT_NAME": "Type 2 diabetes mellitus without complication",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "313436004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531008,
+    "CONCEPT_NAME": "Pre-existing type 1 diabetes mellitus in pregnancy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609564002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3191208,
+    "CONCEPT_NAME": "Poorly controlled type II diabetes with neuropathy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10170001000004104",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45757474,
+    "CONCEPT_NAME": "Diabetes mellitus type 2 without retinopathy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1481000119100",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1409529600000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531009,
+    "CONCEPT_NAME": "Pregnancy and type 1 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609566000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531010,
+    "CONCEPT_NAME": "Pre-existing type 2 diabetes mellitus in pregnancy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609567009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531011,
+    "CONCEPT_NAME": "Diabetes mellitus due to genetic defect in beta cell function",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609568004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4145827,
+    "CONCEPT_NAME": "Latent autoimmune diabetes mellitus in adult",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "426875007",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1185840000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531012,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609570008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4084643,
+    "CONCEPT_NAME": "Extreme insulin resistance with acanthosis nigricans, hirsutism AND abnormal insulin receptors",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "24203005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531013,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 4",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609571007",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531014,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 5",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609572000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4263902,
+    "CONCEPT_NAME": "Gestational diabetes mellitus class A2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "46894009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531015,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 7",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609574004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4096670,
+    "CONCEPT_NAME": "Malnutrition-related diabetes mellitus with renal complications",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "190407009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4096671,
+    "CONCEPT_NAME": "Malnutrition-related diabetes mellitus with peripheral circulatory complications",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "190410002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4099741,
+    "CONCEPT_NAME": "Fibrocalculous pancreatic diabetes",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "2751001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36715417,
+    "CONCEPT_NAME": "DEND syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "721088003",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1485820800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1244603,
+    "CONCEPT_NAME": "Presymptomatic type 1 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1290118005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1693526400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4034961,
+    "CONCEPT_NAME": "Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237611007",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4034960,
+    "CONCEPT_NAME": "Secondary endocrine diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237601000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4034963,
+    "CONCEPT_NAME": "Megaloblastic anemia, thiamine-responsive, with diabetes mellitus and sensorineural deafness",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237617006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36717215,
+    "CONCEPT_NAME": "Intellectual disability, craniofacial dysmorphism, hypogonadism, diabetes mellitus syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "722454003",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1485820800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4099214,
+    "CONCEPT_NAME": "Type 1 diabetes mellitus with ulcer",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "190368000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 44793114,
+    "CONCEPT_NAME": "Pre-existing diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "385051000000106",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1238544000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4099215,
+    "CONCEPT_NAME": "Type 1 diabetes mellitus maturity onset",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "190372001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 44793113,
+    "CONCEPT_NAME": "Diabetes mellitus with multiple complications",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "385041000000108",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1238544000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4304377,
+    "CONCEPT_NAME": "Type 2 diabetes mellitus in obese",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "81531005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 195771,
+    "CONCEPT_NAME": "Secondary diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "8801005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37018765,
+    "CONCEPT_NAME": "Gestational diabetes mellitus complicating pregnancy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "40801000119106",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1454198400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3183244,
+    "CONCEPT_NAME": "Gestational diabetes during pregnancy",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "5620001000004106",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 1075372,
+    "CONCEPT_NAME": "Intermediate DEND syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "1303868000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1709251200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4102018,
+    "CONCEPT_NAME": "Insulin dependent diabetes mellitus type 1B",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "28032008",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4008576,
+    "CONCEPT_NAME": "Diabetes mellitus without complication",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "111552007",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3198350,
+    "CONCEPT_NAME": "Poorly controlled type I diabetes with circulatory disorder",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10100001000004109",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4058243,
+    "CONCEPT_NAME": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "199223000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4228483,
+    "CONCEPT_NAME": "Newly diagnosed diabetes",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "405749004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1075507200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3192052,
+    "CONCEPT_NAME": "Poorly controlled type I diabetes with renal complication",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10120001000004103",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37174270,
+    "CONCEPT_NAME": "Diabetes mellitus type 1 stage 3",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "721201000124104",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1693526400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4129525,
+    "CONCEPT_NAME": "Insulin resistance - type B",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237652003",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4129524,
+    "CONCEPT_NAME": "Insulin resistance - type A",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237651005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 604357,
+    "CONCEPT_NAME": "Ketosis-prone diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "890171006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1612051200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37174265,
+    "CONCEPT_NAME": "Diabetes mellitus type 1 stage 2",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "721121000124104",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1693526400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4202383,
+    "CONCEPT_NAME": "Drug-induced diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "5368009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37174264,
+    "CONCEPT_NAME": "Diabetes mellitus type 1 stage 1",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "721111000124107",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1693526400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4129519,
+    "CONCEPT_NAME": "Pregnancy and type 2 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237627000",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4235410,
+    "CONCEPT_NAME": "Diabetes mellitus induced by non-steroid drugs",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "408540003",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1075507200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3194082,
+    "CONCEPT_NAME": "Poorly controlled type II diabetes with complications",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10150001000004102",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 36716258,
+    "CONCEPT_NAME": "Pancreatic hypoplasia, diabetes mellitus, congenital heart disease syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "722206009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1485820800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4166381,
+    "CONCEPT_NAME": "Maternal diabetes mellitus with hypoglycemia affecting fetus OR newborn",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "4783006",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4129516,
+    "CONCEPT_NAME": "Maternally inherited diabetes and deafness",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "237619009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4079850,
+    "CONCEPT_NAME": "Diabetes mellitus in neonate small for gestational age",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "276560009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531597,
+    "CONCEPT_NAME": "Disorder due to well controlled type 2 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "201000119106",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4212631,
+    "CONCEPT_NAME": "Protein-deficient diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "57886004",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531640,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609561005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531641,
+    "CONCEPT_NAME": "Permanent neonatal diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609565001",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4062687,
+    "CONCEPT_NAME": "Pre-existing malnutrition-related diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "199231005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1012435200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531642,
+    "CONCEPT_NAME": "Diabetes mellitus due to genetic defect in insulin action",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609569007",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531643,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 6",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609573005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531644,
+    "CONCEPT_NAME": "Maturity-onset diabetes of the young, type 8",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609575003",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 43531645,
+    "CONCEPT_NAME": "Diabetes mellitus, transient neonatal 1",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "609579009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1375228800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 4
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45757789,
+    "CONCEPT_NAME": "Postpartum gestational diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "40791000119105",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1406764800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 3194332,
+    "CONCEPT_NAME": "Poorly controlled type II diabetes with renal complications",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "10160001000004105",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "Nebraska Lexicon",
+    "CONCEPT_CLASS_ID": "Clinical Finding",
+    "VALID_START_DATE": 1453939200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 44792134,
+    "CONCEPT_NAME": "Maternally inherited diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "335621000000101",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1207008000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 37116379,
+    "CONCEPT_NAME": "Stimmler syndrome",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "733072002",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1501459200000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 1
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 46274096,
+    "CONCEPT_NAME": "Gingivitis co-occurrent with diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "709147009",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1438300800000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 40485020,
+    "CONCEPT_NAME": "Well controlled type 2 diabetes mellitus",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "444110003",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1264896000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 2
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 4144583,
+    "CONCEPT_NAME": "Diabetes mellitus due to cystic fibrosis",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "427089005",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1185840000000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  },
+  {
+    "CONCEPT_ID": 45757508,
+    "CONCEPT_NAME": "Type 2 diabetes mellitus controlled by diet",
+    "STANDARD_CONCEPT": "S",
+    "STANDARD_CONCEPT_CAPTION": "Standard",
+    "INVALID_REASON": "V",
+    "INVALID_REASON_CAPTION": "Valid",
+    "CONCEPT_CODE": "164971000119101",
+    "DOMAIN_ID": "Condition",
+    "VOCABULARY_ID": "SNOMED",
+    "CONCEPT_CLASS_ID": "Disorder",
+    "VALID_START_DATE": 1422662400000,
+    "VALID_END_DATE": 4102358400000,
+    "RELATIONSHIPS": [
+      {
+        "RELATIONSHIP_NAME": "Descendant",
+        "RELATIONSHIP_DISTANCE": 3
+      }
+    ],
+    "RELATIONSHIP_CAPTION": "Descendant"
+  }
+]
