@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 
 from ohdsi_cohort_schemas.models.common import Concept
-from ohdsi_cohort_schemas.models.concept_set import ConceptSet, ConceptSetExpression
+from ohdsi_cohort_schemas.models.concept_set import ConceptSetExpression
 
 
 def test_concept_responses():
