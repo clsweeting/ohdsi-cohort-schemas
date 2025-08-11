@@ -108,21 +108,27 @@ from ohdsi_cohort_schemas import (
     circe_to_webapi_dict
 )
 
+# Using the same webapi_response from Quick Start example
+# Extract the expression data first
+expression_data = json.loads(webapi_response["expression"])
+
 # Validate WebAPI camelCase format directly
-cohort = validate_webapi_schema_only(webapi_json)
+cohort = validate_webapi_schema_only(expression_data)
 
 # Get warnings for WebAPI format
-result = validate_webapi_with_warnings(webapi_json)
-if result.is_valid:
-    cohort = result.cohort
-    warnings = result.warnings
+cohort, warnings = validate_webapi_with_warnings(expression_data)
+if cohort:
+    print("✅ Valid cohort definition!")
+    if warnings:
+        for warning in warnings:
+            print(f"⚠️ {warning.message}")
 
 # Strict validation (raises on warnings)
-cohort = validate_webapi_strict(webapi_json)
+cohort = validate_webapi_strict(expression_data)
 
-# Format conversion
-circe_format = webapi_to_circe_dict(webapi_json)
-webapi_format = circe_to_webapi_dict(circe_json)
+# Format conversion (works on expression data)
+circe_format = webapi_to_circe_dict(expression_data)
+webapi_format = circe_to_webapi_dict(circe_format)
 ```
 
 ### Building Cohorts Programmatically
@@ -168,19 +174,19 @@ concept_set = ConceptSet(
 # Build a complete cohort expression
 # Note: This is a minimal example - real cohorts need complete primary criteria
 primary_criteria = PrimaryCriteria(
-    criteria_list=[],  # Would contain actual criteria in real usage
-    observation_window=ObservationWindow(
-        prior_days=0,
-        post_days=0
+    CriteriaList=[],  # Would contain actual criteria in real usage
+    ObservationWindow=ObservationWindow(
+        PriorDays=0,
+        PostDays=0
     ),
-    primary_criteria_limit=Limit(Type="First")
+    PrimaryCriteriaLimit=Limit(Type="First")
 )
 
 cohort_expression = CohortExpression(
-    concept_sets=[concept_set],
-    primary_criteria=primary_criteria,
-    inclusion_rules=[],    # Optional inclusion rules
-    censoring_criteria=[]  # Optional censoring criteria
+    ConceptSets=[concept_set],
+    PrimaryCriteria=primary_criteria,
+    InclusionRules=[],    # Optional inclusion rules
+    CensoringCriteria=[]  # Optional censoring criteria
 )
 ```
 
@@ -346,25 +352,26 @@ For WebAPI responses and web application JSON:
 ```python
 from ohdsi_cohort_schemas import validate_webapi_schema_only, validate_webapi_with_warnings
 
+# Using the same webapi_response and expression_data from Quick Start
+# (webapi_response contains the full response, expression_data is the parsed expression)
+
 # Fast schema validation for WebAPI format
 try:
-    cohort = validate_webapi_schema_only(webapi_json)  # camelCase format
+    cohort = validate_webapi_schema_only(expression_data)  # camelCase format
     print("✅ Valid WebAPI schema!")
 except ValidationError as e:
     print(f"❌ Schema errors: {e}")
 
 # Full validation with business logic checks
-result = validate_webapi_with_warnings(webapi_json)
-if result.is_valid:
+cohort, warnings = validate_webapi_with_warnings(expression_data)
+if cohort:
     print("✅ Valid cohort definition!")
-    if result.warnings:
+    if warnings:
         print("⚠️ Warnings:")
-        for warning in result.warnings:
-            print(f"  - {warning}")
+        for warning in warnings:
+            print(f"  - {warning.message}")
 else:
-    print("❌ Validation failed:")
-    for error in result.errors:
-        print(f"  - {error}")
+    print("❌ Validation failed")
 ```
 
 #### Standard Validation Functions
@@ -372,6 +379,10 @@ The main validation functions work with the Circe mixed-case format:
 
 ```python
 from ohdsi_cohort_schemas import validate_schema_only, validate_with_warnings, validate_strict
+
+# For Circe format data (mixed-case field names)
+# You can convert from WebAPI format: circe_json = webapi_to_circe_dict(expression_data)
+# Or use data directly from Circe test files
 
 # Fast schema validation
 try:
@@ -381,17 +392,15 @@ except ValidationError as e:
     print(f"❌ Schema errors: {e}")
 
 # Validation with warnings for best practices
-result = validate_with_warnings(circe_json)
-if result.is_valid:
+cohort, warnings = validate_with_warnings(circe_json)
+if cohort:
     print("✅ Valid cohort definition!")
-    if result.warnings:
+    if warnings:
         print("⚠️ Warnings:")
-        for warning in result.warnings:
+        for warning in warnings:
             print(f"  - {warning.message}")
 else:
-    print("❌ Validation failed:")
-    for error in result.errors:
-        print(f"  - {error}")
+    print("❌ Validation failed")
 
 # Strict validation - warnings treated as errors
 try:

@@ -489,7 +489,7 @@ def validate_webapi_strict(data: dict[str, Any]) -> CohortExpression:
 
     # Raise error if any warnings found
     if warnings:
-        error_messages = [f"{issue.level}: {issue.message}" for issue in warnings]
+        error_messages = [f"{issue.severity}: {issue.message}" for issue in warnings]
         raise ValueError("Business logic validation failed:\n" + "\n".join(error_messages))
 
     return expression
