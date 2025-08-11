@@ -387,7 +387,9 @@ The main validation functions work with the Circe mixed-case format:
 from ohdsi_cohort_schemas import validate_schema_only, validate_with_warnings, validate_strict
 
 # For Circe format data (mixed-case field names)
-# You can convert from WebAPI format: circe_json = webapi_to_circe_dict(expression_data)
+# You can convert from WebAPI format: 
+circe_json = webapi_to_circe_dict(expression_data)
+
 # Or use data directly from Circe test files
 
 # Fast schema validation
