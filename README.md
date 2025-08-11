@@ -420,11 +420,15 @@ except ValidationError as e:
 
 #### Advanced Business Logic Validation
 ```python
-from ohdsi_cohort_schemas import BusinessLogicValidator
+from ohdsi_cohort_schemas import BusinessLogicValidator, CohortExpression
+
+# Using the same expression_data from Quick Start example
+# First parse into a CohortExpression object
+cohort = CohortExpression.model_validate(expression_data)
 
 # Custom validation with specific rules
 validator = BusinessLogicValidator()
-issues = validator.validate(cohort_json)
+issues = validator.validate(cohort)
 
 errors = [issue for issue in issues if issue.severity == 'error']
 warnings = [issue for issue in issues if issue.severity == 'warning']
@@ -441,9 +445,10 @@ for issue in warnings:
 from ohdsi_cohort_schemas import CohortExpression
 from pydantic import ValidationError
 
+# Using the same expression_data from Quick Start example
 # Direct Pydantic validation (lowest-level approach)
 try:
-    cohort = CohortExpression.model_validate(cohort_json)
+    cohort = CohortExpression.model_validate(expression_data)
     print("✅ Valid schema!")
 except ValidationError as e:
     print(f"❌ Schema errors:")
