@@ -32,11 +32,11 @@ from pydantic import ValidationError
 
 # Example: Real cohort definition from OHDSI Atlas demo
 # This is how WebAPI responses look (expression is a JSON string)
-# Data source: tests/webapi_responses/atlas-demo/cohortdefinition/cohort_98149.json
+# Data source: tests/webapi_responses/atlas-demo/cohortdefinition/cohort_101431.json
 webapi_response = {
-    "id": 98149,
-    "name": "Humira + MI",
-    "expression": '{"cdmVersionRange":">=5.0.0","PrimaryCriteria":{"CriteriaList":[{"DrugEra":{"CodesetId":1,"AgeAtStart":{"Value":40,"Op":"gt"}}}],"ObservationWindow":{"PriorDays":180,"PostDays":180},"PrimaryCriteriaLimit":{"Type":"First"}},"AdditionalCriteria":{"Type":"ALL","CriteriaList":[{"Criteria":{"ConditionEra":{"CodesetId":0}},"StartWindow":{"Start":{"Days":7,"Coeff":1},"End":{"Days":90,"Coeff":1}},"RestrictVisit":false,"IgnoreObservationPeriod":false,"Occurrence":{"Type":2,"Count":1,"IsDistinct":false}}],"DemographicCriteriaList":[],"Groups":[]},"ConceptSets":[{"id":0,"name":"Myocardial Infarction","expression":{"items":[{"concept":{"CONCEPT_ID":4329847,"CONCEPT_NAME":"Myocardial infarction","STANDARD_CONCEPT":"S","CONCEPT_CODE":"22298006","DOMAIN_ID":"Condition","VOCABULARY_ID":"SNOMED","CONCEPT_CLASS_ID":"Clinical Finding"},"isExcluded":false,"includeDescendants":true,"includeMapped":false}]}}],"QualifiedLimit":{"Type":"First"},"ExpressionLimit":{"Type":"First"},"InclusionRules":[],"CensoringCriteria":[],"CollapseSettings":{"CollapseType":"ERA","EraPad":0}}',
+    "id": 101431,
+    "name": "Vinci Type 2 Diabetes",
+    "expression": '{"cdmVersionRange":">=5.0.0","PrimaryCriteria":{"CriteriaList":[{"ConditionOccurrence":{"CodesetId":0,"ConditionTypeExclude":false}},{"DrugExposure":{"CodesetId":1,"DrugTypeExclude":false}},{"Measurement":{"CodesetId":2,"MeasurementTypeExclude":false,"ValueAsNumber":{"Value":6,"Op":"gt"},"Unit":[{"CONCEPT_ID":8554,"CONCEPT_NAME":"percent","STANDARD_CONCEPT":null,"STANDARD_CONCEPT_CAPTION":"Unknown","INVALID_REASON":null,"INVALID_REASON_CAPTION":"Unknown","CONCEPT_CODE":"%","DOMAIN_ID":"Unit","VOCABULARY_ID":"UCUM","CONCEPT_CLASS_ID":null}]}},{"Measurement":{"CodesetId":3,"MeasurementTypeExclude":false,"Abnormal":true}},{"Measurement":{"CodesetId":4,"MeasurementTypeExclude":false,"Abnormal":true}}],"ObservationWindow":{"PriorDays":0,"PostDays":0},"PrimaryCriteriaLimit":{"Type":"All"}},"ConceptSets":[{"id":0,"name":"[PHEKB] T2DM","expression":{"items":[{"concept":{"CONCEPT_ID":201826,"CONCEPT_NAME":"Type 2 diabetes mellitus","STANDARD_CONCEPT":"S","CONCEPT_CODE":"44054006","DOMAIN_ID":"Condition","VOCABULARY_ID":"SNOMED","CONCEPT_CLASS_ID":"Clinical Finding"},"isExcluded":false,"includeDescendants":true,"includeMapped":false}]}},{"id":1,"name":"[PHEKB] T2DM Medications","expression":{"items":[{"concept":{"CONCEPT_ID":1503297,"CONCEPT_NAME":"Metformin","STANDARD_CONCEPT":"S","CONCEPT_CODE":"6809","DOMAIN_ID":"Drug","VOCABULARY_ID":"RxNorm","CONCEPT_CLASS_ID":"Ingredient"},"isExcluded":false,"includeDescendants":true,"includeMapped":false}]}},{"id":2,"name":"[PHEKB] HBA1c","expression":{"items":[{"concept":{"CONCEPT_ID":3004410,"CONCEPT_NAME":"Hemoglobin A1c (Glycated)","STANDARD_CONCEPT":"S","CONCEPT_CODE":"4548-4","DOMAIN_ID":"Measurement","VOCABULARY_ID":"LOINC","CONCEPT_CLASS_ID":"Lab Test"},"isExcluded":false,"includeDescendants":false,"includeMapped":false}]}},{"id":3,"name":"[PHEKB] Lab: Random Glucose","expression":{"items":[{"concept":{"CONCEPT_ID":3000483,"CONCEPT_NAME":"Glucose [Mass/volume] in Blood","STANDARD_CONCEPT":"S","CONCEPT_CODE":"2339-0","DOMAIN_ID":"Measurement","VOCABULARY_ID":"LOINC","CONCEPT_CLASS_ID":"Lab Test"},"isExcluded":false,"includeDescendants":false,"includeMapped":false}]}},{"id":4,"name":"[PHEKB] Lab: Fasting Glucose [Mass-Volume]","expression":{"items":[{"concept":{"CONCEPT_ID":3037110,"CONCEPT_NAME":"Fasting glucose [Mass/volume] in Serum or Plasma","STANDARD_CONCEPT":"S","CONCEPT_CODE":"1558-6","DOMAIN_ID":"Measurement","VOCABULARY_ID":"LOINC","CONCEPT_CLASS_ID":"Lab Test"},"isExcluded":false,"includeDescendants":false,"includeMapped":false}]}}],"QualifiedLimit":{"Type":"First"},"ExpressionLimit":{"Type":"First"},"InclusionRules":[],"CensoringCriteria":[],"CollapseSettings":{"CollapseType":"ERA","EraPad":0}}',
     "expressionType": "SIMPLE_EXPRESSION"
 }
 
@@ -188,6 +188,12 @@ cohort_expression = CohortExpression(
     InclusionRules=[],    # Optional inclusion rules
     CensoringCriteria=[]  # Optional censoring criteria
 )
+
+# To dump as a dictionary 
+cohort_expression.model_dump() 
+
+# To dump as JSON 
+cohort_expression.json()
 ```
 
 ## Features
