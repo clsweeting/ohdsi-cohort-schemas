@@ -74,11 +74,15 @@ class Occurrence(BaseModel):
 class Limit(BaseModel):
     """Represents cohort size limiting strategy."""
 
+    model_config = ConfigDict(populate_by_name=True)
+
     type: Literal["First", "Last", "All"] = Field(..., alias="Type", description="Limiting strategy")
 
 
 class ObservationWindow(BaseModel):
     """Represents observation window around index event."""
+
+    model_config = ConfigDict(populate_by_name=True)
 
     prior_days: int = Field(0, alias="PriorDays", description="Days before index event")
     post_days: int = Field(0, alias="PostDays", description="Days after index event")

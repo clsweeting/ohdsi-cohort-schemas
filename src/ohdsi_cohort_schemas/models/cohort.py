@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .common import (
     CensorWindow,
@@ -33,6 +33,8 @@ class CriteriaExpression(BaseModel):
 
 class PrimaryCriteria(BaseModel):
     """Represents the primary criteria that define the index event."""
+
+    model_config = ConfigDict(populate_by_name=True)
 
     criteria_list: list[PrimaryCriteriaItem] = Field(..., alias="CriteriaList", description="Primary qualifying criteria")
     observation_window: ObservationWindow = Field(..., alias="ObservationWindow", description="Observation window around index")
